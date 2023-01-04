@@ -352,7 +352,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TRACKER01.kicad_pro",
+    "filename": "DATALOGGER02A.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -476,10 +476,6 @@
     [
       "df8e542d-4a80-4d5b-8f9c-c0d69db7158b",
       "battery"
-    ],
-    [
-      "73eb4c79-8e92-4f0b-b779-a146e5d292ee",
-      "Power_supply"
     ]
   ],
   "text_variables": {}
