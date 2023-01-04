@@ -257,7 +257,8 @@ jobs:
         token: ${{ secrets.pat }}
 
     
-    - run: |
+    - name: Update submodules
+      run: |
         git pull --force --rebase || true
         git submodule update --remote || true
 
