@@ -476,6 +476,18 @@
     [
       "df8e542d-4a80-4d5b-8f9c-c0d69db7158b",
       "battery"
+    ],
+    [
+      "7c71719b-9529-474d-a282-d76ba461a2b8",
+      "Microcontroller"
+    ],
+    [
+      "8c16a5bf-8019-4e77-9247-0011396b8bad",
+      "Peripherals"
+    ],
+    [
+      "57abb78d-4ec7-40f9-bbe8-c79df3c568d9",
+      "Connectors"
     ]
   ],
   "text_variables": {}

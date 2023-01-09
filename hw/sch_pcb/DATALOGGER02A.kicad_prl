@@ -61,11 +61,11 @@
       37,
       38
     ],
-    "visible_layers": "fffffff_7ffffffe",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "TRACKER01.kicad_prl",
+    "filename": "DATALOGGER02A.kicad_prl",
     "version": 3
   },
   "project": {
