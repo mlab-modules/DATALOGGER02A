@@ -488,6 +488,10 @@
     [
       "57abb78d-4ec7-40f9-bbe8-c79df3c568d9",
       "Connectors"
+    ],
+    [
+      "2cb60f7b-1af1-45bb-a380-98cd5f4fdeca",
+      "Power_management"
     ]
   ],
   "text_variables": {}
