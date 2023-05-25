@@ -1,0 +1,25 @@
+description: 'Arduino based data logger with LoRa IoT interface.  '
+github_branch: DATALOGGER02A
+github_branches:
+- 02A/update_actions
+- DATALOGGER02A
+- kaklik
+github_repo: DATALOGGER02
+github_url: https://github.com/mlab-modules/DATALOGGER02
+homepage: false
+image: doc/gen/img/DATALOGGER02A-top.png
+images:
+- doc/gen/img/DATALOGGER02A-top.png
+- doc/gen/img/DATALOGGER02A-bottom.png
+- doc/gen/DATALOGGER02A-schematic.svg
+- doc/gen/DATALOGGER02A-Power_supply.svg
+- doc/gen/DATALOGGER02A-Microcontroller.svg
+- doc/gen/DATALOGGER02A-Peripherals.svg
+- doc/gen/DATALOGGER02A-Power_management.svg
+- doc/gen/DATALOGGER02A-Connectors.svg
+- doc/gen/DATALOGGER02A-battery.svg
+issues: 0
+mark: 50
+mod_scheme: doc/gen/DATALOGGER02A-schematic.pdf
+tags: []
+title: DATALOGGER02
