@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/DATALOGGER02.kicad_sch</source>
+    <date>Wed Jul  5 13:21:52 2023</date>
+    <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>DATALOGGER01A</title>
+        <company>Mlab www.mlab.cz</company>
+        <rev/>
+        <date>2022-08-14</date>
+        <source>DATALOGGER02.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Universal battery powered SDcard \ndatalogger. "/>
+        <comment number="3" value="jacho &lt;jacho@mlab.cz&gt;"/>
+        <comment number="4" value="GPL 3.0"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>battery.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Microcontroller/" tstamps="/7c71719b-9529-474d-a282-d76ba461a2b8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Microcontroller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Peripherals/" tstamps="/8c16a5bf-8019-4e77-9247-0011396b8bad/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Peripherals.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Connectors/" tstamps="/57abb78d-4ec7-40f9-bbe8-c79df3c568d9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Connectors.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Power_management/" tstamps="/2cb60f7b-1af1-45bb-a380-98cd5f4fdeca/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power_management.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT?">
+      <value>lion</value>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value="battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
+      <tstamps>f5c02093-168e-4423-9d45-810c3ebad87c</tstamps>
+    </comp>
+    <comp ref="C?">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value="battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
+      <tstamps>77f53a61-0c41-42d4-85eb-bf0396807483 a19aad90-a27f-47ec-b795-c24b17940bb5 33ea1e73-7e87-4ba9-8be9-f7f6db3b49c9 99c61636-f24e-49b6-95c8-63b915cfec31 e99e6658-95a5-4196-a20e-0bc461e2b320 3036141e-680d-425f-b494-872fe89c4a92 2fa0c1eb-74b3-44a3-8536-1d107550d201 d1819f77-2a4e-4eef-a0f1-52426388c612 0c0e2596-39e8-4fd0-af8e-60c64965c7eb f9ede70a-3263-4939-b9c5-98fddf14e4b6 5d8b44ea-2151-4933-a23b-861046067c04 5de0d125-6ff9-497e-a350-c39bf0d7ee19 349b3a54-bc25-4c0f-a037-dc38c9aede25 0a8bc38a-e5f6-44d8-a0f3-19138fc69f6f 802f9802-09dd-47ec-aa3e-aa60a8168a14 97f0806a-7100-4586-8c7b-72ea0c1bd3ac 04e0737f-5638-4d6d-9baa-869578a18788</tstamps>
+    </comp>
+    <comp ref="D?">
+      <value>ORAGE</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value="battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
+      <tstamps>27472654-ec3b-417b-84f9-694bea645eef 1f787ac4-816c-47e6-9495-56871dc0d7e7 d8371c33-3c92-4b20-b127-861683058dea aaa76af9-eaca-48ef-aa52-3be8df13967d 715e78c6-8110-45bc-9dbb-7b9bd372f98d cb7dea8b-15fe-49fc-904d-139c96aba914 6a54ec06-e339-4598-88ea-f60ec47d9467 d2493e74-5c93-41b6-83e6-960771264d28 e0144ff2-5be0-447c-bc4e-9c8cfb5743c3 714c2665-8f4f-419e-9b80-1c8b264b579f ea22fb36-05dc-48b2-addd-99fff3b57419 73f9a4ab-d75e-476f-9658-5eb103811222 2b6fa37f-197f-4941-8d8d-72e9fb5cb4ca 154f36f9-dff7-40bb-91fb-3118e449ba84</tstamps>
+    </comp>
+    <comp ref="F?">
+      <value>1.1A</value>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value="battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
+      <tstamps>2618c4a0-9a45-422a-818f-4564fe6365f9 026f70c9-0ea5-4db6-81a1-8ee52cef65ec</tstamps>
+    </comp>
+    <comp ref="IC?">
+      <value>BQ294602DRVR</value>
+      <footprint>SON65P200X200X80-7N</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq2946</datasheet>
+      <fields>
+        <field name="Description">Family Overvoltage Protection Device for 1-Cell Li-Ion Batteries, with 4.35v OVP</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">BQ294602DRVR</field>
+        <field name="Mouser Part Number">595-BQ294602DRVR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ294602DRVR?qs=3jfYfyvUSwAEHeUsQ5zEVQ%3D%3D</field>
+      </fields>
+      <libsource lib="BQ294602DRVR" part="BQ294602DRVR" description="Family Overvoltage Protection Device for 1-Cell Li-Ion Batteries, with 4.35v OVP"/>
+      <property name="Description" value="Family Overvoltage Protection Device for 1-Cell Li-Ion Batteries, with 4.35v OVP"/>
+      <property name="Height" value="0.8"/>
+      <property name="Mouser Part Number" value="595-BQ294602DRVR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ294602DRVR?qs=3jfYfyvUSwAEHeUsQ5zEVQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="BQ294602DRVR"/>
+      <property name="Sheetname" value="battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <property name="ki_description" value="Family Overvoltage Protection Device for 1-Cell Li-Ion Batteries, with 4.35v OVP"/>
+      <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
+      <tstamps>ddb6414a-b947-45bc-8897-c1427a9747f1</tstamps>
+    </comp>
+    <comp ref="J?">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value="battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
+      <tstamps>894925c7-5f32-40e6-ba31-93f234107e1b fe1813ac-44df-4536-b176-01a8fcc03358 6a07f0e8-902d-4510-9de2-518242b60acc 91eeaa0d-cc6c-49c8-afdf-6959ef26eadc 5e1fd330-44cc-478c-bafb-4da463f465eb 3f0e75a4-80bc-447e-b69c-a4642598b0b7 4fd1b0b7-95e7-44aa-8512-c8dc6eebfc66 af14c3bf-12e6-4b18-a26d-b8f5241bc244 3f6aad18-2502-40df-83a6-4eb5c65974b6 0f9b9691-8300-4875-9567-620f0334ed86 0d93708a-e880-453c-8f23-284b6da7cfca f6cc5443-20db-452d-ba43-86a8f7450e78 056c9c79-e94e-4b31-9997-9c035d12cc58</tstamps>
+    </comp>
+    <comp ref="L?">
+      <value>1uH - DFE252012P-1R0M=P2</value>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
+      <tstamps>adfea751-aa46-44c0-8b0f-7ee8d2dd0d81 7d5cc44e-fbba-43f5-9eda-4a6d1c0040dc</tstamps>
+    </comp>
+    <comp ref="P?">
+      <value>_</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="_" description=""/>
+      <property name="Sheetname" value="battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
+      <tstamps>56ea3441-8aaa-4d6f-b2f1-d5945c863101 a7150df1-a122-4f1c-9ea1-a9831b5d4b11 cddc29cf-b309-4b48-af15-d1f96af0bff6 552fef86-460b-45fa-bdbb-366138686414</tstamps>
+    </comp>
+    <comp ref="Q?">
+      <value>IRLML6244</value>
+      <footprint>Mlab_T:SOT-23</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="MOSFET-N" description=""/>
+      <property name="Sheetname" value="battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
+      <tstamps>1ec58fa0-6c5b-438c-8071-deed46a1ac61</tstamps>
+    </comp>
+    <comp ref="R?">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value="battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
+      <tstamps>ec7fc9d2-c0b2-4038-a496-0c8970727937 dcfa3a62-7f00-4914-a7d8-19f31e21ec66 ad8d002a-e5f9-41ad-bf4b-1509d3d79cf9 7511369c-6efa-4628-bdef-8412fa39c924 4b6d8b10-2ba8-45f3-bc03-44c8944d8387 f19259e7-688a-4e1f-a200-41229b4ac21c 93556b59-63af-4a68-b183-fadd35482107 f8ba6fd4-4e7f-4455-b174-9762ef5e536b 29f58616-ac9a-4cf6-a809-d1a78f73ad9f 4901bdbe-41d4-459c-93f7-3295a9b57e41 ddbdd3a4-9648-4702-92ba-9fc1228c50b1 1754e145-dc8d-49b9-b434-288a05af9473 e2aef034-f927-4319-a47e-83cf147971c0 ea5317c0-1cfe-4fd2-91c0-a1cd9f9e303a c09e0f9a-50b9-4c28-8bc6-c649fd12b34c 2a200fa9-d52e-4870-bd7e-01931d3fead9 ad97f154-7be7-4c11-a88a-3b7a22434c64 b2d4068b-98b5-4406-a3d3-6baa1ab0e63f 98b9c477-b772-482d-80cd-1a540974cc36 0f6f4f92-12af-4ea6-a377-fec5e4d2cd99 57085243-f0c3-4c4d-92bb-7487be0bcadc 40dd8144-d264-42b5-81c2-f60526ce69c6 d68cd08c-555f-45e8-b843-1714828c7d09 53a75cd8-52a5-4e00-8dbc-caca66b7dda2 78ef7263-2ae5-405e-aa08-f944ef9d0792 07320f01-6bc4-4cfb-a599-6278115596e8</tstamps>
+    </comp>
+    <comp ref="SW?">
+      <value>SW_PUSH</value>
+      <footprint>Mlab_SW:SW_PUSH_SMALL</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="SW_PUSH" description=""/>
+      <property name="Sheetname" value="battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
+      <tstamps>c1c3cd28-6139-4ec6-8997-b3726ac42bde</tstamps>
+    </comp>
+    <comp ref="TH?">
+      <value>NCP21XV103J03RA</value>
+      <libsource lib="Device" part="Thermistor" description="Temperature dependent resistor"/>
+      <property name="Sheetname" value="battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <property name="ki_description" value="Temperature dependent resistor"/>
+      <property name="ki_keywords" value="R res thermistor"/>
+      <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
+      <tstamps>7edc4269-dd37-4aa6-a1fe-742ddf0d58d4 552d5bd3-379a-4f7e-92fa-a8485d567f1e</tstamps>
+    </comp>
+    <comp ref="U?">
+      <value>BQ34Z100</value>
+      <footprint>Mlab_IO:TSSOP-14_4.4x5mm_Pitch0.65mm</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="BQ34Z100" description=""/>
+      <property name="Sheetname" value="battery"/>
+      <property name="Sheetfile" value="battery.kicad_sch"/>
+      <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
+      <tstamps>95ccf9a6-36a0-4b17-90e9-92c7eb291e3c e1646967-628d-4655-b574-497e5ed57def e2990822-a2b7-4068-aa5c-7b6e1dd6c3fc 8800e0be-b2cf-462c-aeeb-aadcdb350aa3</tstamps>
+    </comp>
+    <comp ref="C?">
+      <value>4u7</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b52</field>
+      </fields>
+      <libsource lib="DATALOGGER01A-rescue" part="C-device" description=""/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8b52"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/7c71719b-9529-474d-a282-d76ba461a2b8/"/>
+      <tstamps>79dafa16-be09-4519-b2cf-afe15559753f c2b8a704-a1c7-4bfa-a7c1-0d22b53f2186 64580dfd-57ec-4d42-b051-e1c38ed242e4 a56f04fd-770d-4253-a198-6f5b30bf6fb1 ec12bbf6-adbf-4a68-adcf-7259ead805e0 8c18219d-b9ea-4acd-975b-5eb181dc2276 77d8f011-a013-4a08-be83-d067d0d5e981 fad76ba1-bcdb-4029-ae3d-0aef86d7ab97 ff554eaf-667a-43e6-83d2-516244ab9bc9 50ac472a-2825-45fb-9dc4-c3d20ae5b389 ed9006f4-a657-4f0c-a9fc-743f3ffea46e 24ba0513-5d0a-474f-bc34-b56ecfa27b26 23bd68cf-1a94-449c-8e57-3a1f016d1bcf</tstamps>
+    </comp>
+    <comp ref="J?">
+      <value>HEADER_2x01_PARALLEL</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="DATALOGGER01A-rescue" part="HEADER_2x01_PARALLEL-MLAB_HEADER" description=""/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/7c71719b-9529-474d-a282-d76ba461a2b8/"/>
+      <tstamps>8d9c879f-d394-4ad2-ae5e-6a2a9bc3aa26 41904d57-8d29-40a8-ae74-d0215ce2c8e3 3c6035f2-bc05-4344-b7b6-2039070d63eb</tstamps>
+    </comp>
+    <comp ref="L?">
+      <value>10uH - LQH32CN100K23L</value>
+      <footprint>Mlab_R:SMD-1210</footprint>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f87ff</field>
+      </fields>
+      <libsource lib="DATALOGGER01A-rescue" part="L-device" description=""/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984412875079b91f87ff"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/7c71719b-9529-474d-a282-d76ba461a2b8/"/>
+      <tstamps>e8bbbff2-5834-4f30-9cd5-972f3b6b864e</tstamps>
+    </comp>
+    <comp ref="R?">
+      <value>10k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/7c71719b-9529-474d-a282-d76ba461a2b8/"/>
+      <tstamps>e7650695-e3de-4fc1-8456-f9f71196816c 40f65db6-40bf-4b25-9b35-6dd783895272 414ced49-5590-4d1e-b4f3-d768e07bf266 6f28f32e-1dac-4146-ba68-358e6d7e4323 9228bef2-31cf-4dd5-af1a-581e15e30de5 c24999bc-b934-457a-94b2-6aa9a151de9f 6507e79f-15c4-4ed8-b8b2-62c7535f3749 e33e0e71-960e-40c0-93d8-59655ede7651 c73addb8-c568-41f9-9186-46bb7e58dfc4 a3028f74-7dfd-4a0d-baf3-38c968854d5d 3f02bbb0-4034-4a1b-8f30-94e736cd248b</tstamps>
+    </comp>
+    <comp ref="U?">
+      <value>ATMEGA1284P-AU</value>
+      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
+      <datasheet>http://www.atmel.com/Images/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f888e</field>
+      </fields>
+      <libsource lib="DATALOGGER01A-rescue" part="ATMEGA1284P-AU-atmel" description=""/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984412875079b91f888e"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/7c71719b-9529-474d-a282-d76ba461a2b8/"/>
+      <tstamps>dd2cc217-e4c8-47b4-8f89-c715c7d48f4e b9edc694-7826-4780-b8be-d4e7ea7ac5a6 2dfd9b2f-024c-4b95-8a6f-0f571f33cbad</tstamps>
+    </comp>
+    <comp ref="Y?">
+      <value>8MHz</value>
+      <footprint>Mlab_XTAL:Crystal_HC49-U_Vertical</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b10</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8b10"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/Microcontroller/" tstamps="/7c71719b-9529-474d-a282-d76ba461a2b8/"/>
+      <tstamps>8f466622-dc6c-471a-a9aa-16051f2efb17</tstamps>
+    </comp>
+    <comp ref="BT?">
+      <value>Battery_Cell-device</value>
+      <footprint>Mlab_Batery:CH28-2032</footprint>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f87ec</field>
+      </fields>
+      <libsource lib="DATALOGGER01A-rescue" part="Battery_Cell-device" description=""/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984412875079b91f87ec"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <sheetpath names="/Peripherals/" tstamps="/8c16a5bf-8019-4e77-9247-0011396b8bad/"/>
+      <tstamps>8cf801ab-be39-4901-9101-b7d91a8cc325</tstamps>
+    </comp>
+    <comp ref="C?">
+      <value>1uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b50</field>
+      </fields>
+      <libsource lib="DATALOGGER01A-rescue" part="C-device" description=""/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8b50"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <sheetpath names="/Peripherals/" tstamps="/8c16a5bf-8019-4e77-9247-0011396b8bad/"/>
+      <tstamps>a02bc618-64c1-44a0-8c56-224de66a5d75 e51d9173-a20a-41b4-b53b-66a58ed6142a e8a1c547-f2e8-4ed1-814b-f097dea52403 861ac993-119e-43ce-8b12-19077892e773 baaf6ab2-b83f-480b-871c-77f7f6e59705 95dd4e40-14f7-4d11-afba-7e04c83403e5 6a51798d-bb10-478a-b242-9a93d236df7b a1b5b3bb-ddbf-4a94-a0ee-aa1e899bf9a7 f263481f-454f-4b6b-b56e-1aec257c6758 b5c4fbe6-a8a3-41c5-9765-3a3663da3814 455b9df8-d000-4655-88b3-531b17fbec74 a7c49aeb-32d1-4251-b672-65ef11789aa7 602b320d-533f-4db9-ad99-5710f56f2373 d6347a82-ea2e-40f5-986f-8dc5592fd858 2d795cc8-9477-4531-9c70-fb9289917596</tstamps>
+    </comp>
+    <comp ref="D?">
+      <value>HLMP-K150+FIX-LED-313</value>
+      <footprint>Mlab_D:FIX-LED-313</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b67</field>
+      </fields>
+      <libsource lib="DATALOGGER01A-rescue" part="LED-device" description=""/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8b67"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <sheetpath names="/Peripherals/" tstamps="/8c16a5bf-8019-4e77-9247-0011396b8bad/"/>
+      <tstamps>b080bb2c-8ec3-435f-850a-3726191bddb7</tstamps>
+    </comp>
+    <comp ref="IC?">
+      <value>CY15B108QN-40SXI</value>
+      <footprint>SOIC127P800X203-8N</footprint>
+      <datasheet>https://www.mouser.in/datasheet/2/196/CYPR_S_A0011123055_1-3004611.pdf</datasheet>
+      <fields>
+        <field name="Description">F-RAM Excelon LP 40 MHz 8-EIAJ</field>
+        <field name="Height">2.03</field>
+        <field name="Manufacturer_Name">Infineon / Cypress</field>
+        <field name="Manufacturer_Part_Number">CY15B108QN-40SXI</field>
+        <field name="Mouser Part Number">727-CY15B108QN-40SXI</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Cypress/CY15B108QN-40SXI?qs=P1JMDcb91o4DSS%2FkAQM5uA%3D%3D</field>
+      </fields>
+      <libsource lib="CY15B108QN-40SXI" part="CY15B108QN-40SXI" description="F-RAM Excelon LP 40 MHz 8-EIAJ"/>
+      <property name="Description" value="F-RAM Excelon LP 40 MHz 8-EIAJ"/>
+      <property name="Height" value="2.03"/>
+      <property name="Mouser Part Number" value="727-CY15B108QN-40SXI"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-Cypress/CY15B108QN-40SXI?qs=P1JMDcb91o4DSS%2FkAQM5uA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon / Cypress"/>
+      <property name="Manufacturer_Part_Number" value="CY15B108QN-40SXI"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_description" value="F-RAM Excelon LP 40 MHz 8-EIAJ"/>
+      <sheetpath names="/Peripherals/" tstamps="/8c16a5bf-8019-4e77-9247-0011396b8bad/"/>
+      <tstamps>feac8a85-5aac-41b1-b958-b7a46b94b059 27d641fe-9a6a-436d-95a1-96726602c5fe</tstamps>
+    </comp>
+    <comp ref="J?">
+      <value>MCC-SD</value>
+      <footprint>Connector_Card:SD_TE_2041021</footprint>
+      <datasheet>http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f87f2</field>
+      </fields>
+      <libsource lib="DATALOGGER01A-rescue" part="SD_Card-Connector" description=""/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984412875079b91f87f2"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <sheetpath names="/Peripherals/" tstamps="/8c16a5bf-8019-4e77-9247-0011396b8bad/"/>
+      <tstamps>4d114f12-1910-4429-b4f0-5f61990ea750 c5a7b6f4-c63a-4e4d-a207-91866ee4825d 3f204d3d-6f60-4da7-a3b5-062ada3939ae 3eb3ddf5-299f-45c4-9cdf-7c19deea312f 0214d24f-d686-4cd2-91cc-5efc523cda56</tstamps>
+    </comp>
+    <comp ref="R?">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="DATALOGGER01A-rescue" part="R-device" description=""/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <sheetpath names="/Peripherals/" tstamps="/8c16a5bf-8019-4e77-9247-0011396b8bad/"/>
+      <tstamps>da9c7ae4-f63b-4d82-a871-3052289fe2c4 4f60f2bb-b695-4e9d-8b9f-d410e393658a d85acf97-70d5-4f57-ac03-86335a79c754 17dfd311-8378-4801-93ff-1ced8ae077fd a2ba20d7-f8fc-4f2f-b2f1-9ed19c61f487 211e83ec-b64b-4af7-8ea0-0975f92e3b37 50d78b0e-984a-4f33-bb17-bcb0c8452df2 68165cc3-b340-4a18-afde-31bd2542add4 79fa3d32-2f85-486c-96bf-9acdc2632c29 f043d182-da41-4c38-8261-2a1d862ca86f bc33b115-29f7-49a9-9fe3-bf0b0952d742 a20c7713-d151-4759-a4f0-f1475073932d 33a51c04-1c0d-4797-9433-c0d594ed829d ef0bf983-1681-4087-971e-70c56234551d 0990a216-11d5-4271-b2a9-e73bb2fd1559 eed9e531-632c-4aaa-925b-8b953aa68d52 bc6e0213-ebbc-4ff7-b728-10f43675dd5c 5bc28697-ba4d-4d0c-84bc-6fee6b271919 059e94b2-afd4-4c34-baea-2935b0808cbe</tstamps>
+    </comp>
+    <comp ref="U?">
+      <value>PCF85263A</value>
+      <footprint>Mlab_IO:TSSOP-10_3x3mm_Pitch0.5mm</footprint>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f8a0c</field>
+      </fields>
+      <libsource lib="DATALOGGER01A-rescue" part="PCF85263A-MLAB_IO" description=""/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984612875079b91f8a0c"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <sheetpath names="/Peripherals/" tstamps="/8c16a5bf-8019-4e77-9247-0011396b8bad/"/>
+      <tstamps>f25d9116-c4bb-44fc-a5e7-5c7cee9449e1 54f644c0-cf5d-4ea9-b616-c576fc53ec3e 5939e778-080a-46f6-bbe2-8b5a6433c82c ad62d6ea-53f6-41c5-9159-85c5e487fbeb ee53f010-6fd1-4fb0-ad1d-f3afcbb787d9 46617a89-661a-4dfd-9338-2d502044c0ae</tstamps>
+    </comp>
+    <comp ref="Y?">
+      <value>ABS07-120-32.768KHZ-T</value>
+      <footprint>Mlab_XTAL:ABS07</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b1b</field>
+      </fields>
+      <libsource lib="DATALOGGER01A-rescue" part="Crystal-device" description=""/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8b1b"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <sheetpath names="/Peripherals/" tstamps="/8c16a5bf-8019-4e77-9247-0011396b8bad/"/>
+      <tstamps>a19f6e24-bf14-41fb-a9a7-eb818bd467a2</tstamps>
+    </comp>
+    <comp ref="J?">
+      <value>Conn_01x07_Female</value>
+      <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Connectors/" tstamps="/57abb78d-4ec7-40f9-bbe8-c79df3c568d9/"/>
+      <tstamps>2416e236-8130-4ce3-a4ab-658e347e0622 9e75cc04-e14e-4787-bd43-db34e3c76ff3 4cba8acc-2fef-47ce-a8a3-c069bf1dbb73 c0cf3be0-e1a8-4e03-b59f-cace55618a4a 61ea748c-02a0-4f24-8fac-2ac5778ffc95 cc395eb4-9c29-4a61-a9a3-5ebbac8098f2 5c85b09f-e4c4-4cbf-813f-6c7328164c59 1ad8d551-786d-4812-8839-ea5cede76a18 cf38df8f-4ffa-4b66-9f2e-4d33e8cf7fed 6ef15582-2372-4e70-ac81-30648c1dd5db 7e2060b8-e139-4f6f-b6dc-1ec0ee835a73 43ca4d27-58af-4907-a7ca-b3ebf894bb75 645844e1-852d-4c08-a298-f54fa37f579d 51e29b00-d460-41da-ada1-d5c45e0bc750 c2e6088d-3122-40b5-b06e-92676a73c4af 1567921d-a79f-4c21-9230-b923966da2a1</tstamps>
+    </comp>
+    <comp ref="C?">
+      <value>EMI_Filter_C</value>
+      <footprint>Mlab_L:FIR1</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb</datasheet>
+      <libsource lib="DATALOGGER01A-rescue" part="EMI_Filter_C-device" description=""/>
+      <property name="Sheetname" value="Power_management"/>
+      <property name="Sheetfile" value="Power_management.kicad_sch"/>
+      <sheetpath names="/Power_management/" tstamps="/2cb60f7b-1af1-45bb-a380-98cd5f4fdeca/"/>
+      <tstamps>45da4477-77e4-4064-aaa6-bed7ab2fe6c7 3ced3207-d142-4592-9642-0ae02fcc4eec 45725435-d293-45ef-93ca-ac57790f6f31 a66f99db-cb74-4eac-b149-55c82507ee72 a1df33b9-c5d3-47d2-becc-f3ad343d659f 2afbdf32-87ab-47fa-949d-f3c2c47bae8d 72d5c1ab-c957-4833-bf2c-b14f71382a95 7c048ad1-ef60-4ef6-a6d1-59c409f2fbb6 0e6bb35b-80c7-4d6f-bce3-968b28417411</tstamps>
+    </comp>
+    <comp ref="D?">
+      <value>M4</value>
+      <footprint>Mlab_D:SMA_Standard</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f88ac</field>
+      </fields>
+      <libsource lib="DATALOGGER01A-rescue" part="D-device" description=""/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984512875079b91f88ac"/>
+      <property name="Sheetname" value="Power_management"/>
+      <property name="Sheetfile" value="Power_management.kicad_sch"/>
+      <sheetpath names="/Power_management/" tstamps="/2cb60f7b-1af1-45bb-a380-98cd5f4fdeca/"/>
+      <tstamps>7fe6d494-1420-4b10-8242-2d81edaa7f19</tstamps>
+    </comp>
+    <comp ref="F?">
+      <value>1.2A</value>
+      <footprint>Mlab_F:1812</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f88d2</field>
+      </fields>
+      <libsource lib="DATALOGGER01A-rescue" part="Polyfuse-device" description=""/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984512875079b91f88d2"/>
+      <property name="Sheetname" value="Power_management"/>
+      <property name="Sheetfile" value="Power_management.kicad_sch"/>
+      <sheetpath names="/Power_management/" tstamps="/2cb60f7b-1af1-45bb-a380-98cd5f4fdeca/"/>
+      <tstamps>befa13ac-0aab-4465-bcbd-2543378dcaa4</tstamps>
+    </comp>
+    <comp ref="IC?">
+      <value>LTC4041EUFD#PBF</value>
+      <footprint>QFN50P400X500X80-25N-D</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4041.pdf</datasheet>
+      <fields>
+        <field name="Description">Power Management Specialized - PMIC 2.5A Supercapacitor Backup Power Manager</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">LTC4041EUFD#PBF</field>
+        <field name="Mouser Part Number">584-4041EUFDPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC4041EUFDPBF?qs=gTYE2QTfZfRpspSzeZf9Cw%3D%3D</field>
+      </fields>
+      <libsource lib="LTC4041EUFD#PBF" part="LTC4041EUFD#PBF" description="Power Management Specialized - PMIC 2.5A Supercapacitor Backup Power Manager"/>
+      <property name="Description" value="Power Management Specialized - PMIC 2.5A Supercapacitor Backup Power Manager"/>
+      <property name="Height" value="0.8"/>
+      <property name="Mouser Part Number" value="584-4041EUFDPB"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC4041EUFDPBF?qs=gTYE2QTfZfRpspSzeZf9Cw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="LTC4041EUFD#PBF"/>
+      <property name="Sheetname" value="Power_management"/>
+      <property name="Sheetfile" value="Power_management.kicad_sch"/>
+      <property name="ki_description" value="Power Management Specialized - PMIC 2.5A Supercapacitor Backup Power Manager"/>
+      <sheetpath names="/Power_management/" tstamps="/2cb60f7b-1af1-45bb-a380-98cd5f4fdeca/"/>
+      <tstamps>f83f8577-22f4-48a3-b0b0-518359d4e612</tstamps>
+    </comp>
+    <comp ref="J?">
+      <value>HEADER_2x01_PARALLEL</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="DATALOGGER01A-rescue" part="HEADER_2x01_PARALLEL-MLAB_HEADER" description=""/>
+      <property name="Sheetname" value="Power_management"/>
+      <property name="Sheetfile" value="Power_management.kicad_sch"/>
+      <sheetpath names="/Power_management/" tstamps="/2cb60f7b-1af1-45bb-a380-98cd5f4fdeca/"/>
+      <tstamps>e2aef9d9-bc0e-4ac3-ae44-fb9e68ec20ee 9768201e-9e31-4bf0-a39e-c3352b00b913 9868bc50-ff4d-4743-99ca-c46f2b36a472 ec941f1a-0eee-4ed0-bcdc-1b754cc09695 e440645d-730c-4647-ae67-a3f86a463ccd df3c1701-6ace-49ee-b6c0-1cff76ed9d09 4b947d0e-6979-4ea6-b2b9-604dad71ea6e</tstamps>
+    </comp>
+    <comp ref="L?">
+      <value>XAL-6030-182 1.8 uH</value>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="Power_management"/>
+      <property name="Sheetfile" value="Power_management.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Power_management/" tstamps="/2cb60f7b-1af1-45bb-a380-98cd5f4fdeca/"/>
+      <tstamps>dc0b6399-9c2e-4635-b40c-8ee0a9461a0a befe39d4-6ddf-47f7-9711-73de5d24572c</tstamps>
+    </comp>
+    <comp ref="Q?">
+      <value>SIR424DP</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.vishay.com/docs/70226/70226.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7000" description="0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"/>
+      <property name="Sheetname" value="Power_management"/>
+      <property name="Sheetfile" value="Power_management.kicad_sch"/>
+      <property name="ki_description" value="0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"/>
+      <property name="ki_keywords" value="N-Channel MOSFET Logic-Level"/>
+      <sheetpath names="/Power_management/" tstamps="/2cb60f7b-1af1-45bb-a380-98cd5f4fdeca/"/>
+      <tstamps>2b6e0d89-9375-4ae5-a03a-21c0ae4f4bc3 141326e1-a067-42d0-be55-7072c89a2055</tstamps>
+    </comp>
+    <comp ref="R?">
+      <value>100k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power_management"/>
+      <property name="Sheetfile" value="Power_management.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power_management/" tstamps="/2cb60f7b-1af1-45bb-a380-98cd5f4fdeca/"/>
+      <tstamps>aed63108-ad37-4f92-9292-9e4836dc4909 83bc5bd1-77d2-4dcd-9535-96d1e49e9c69 6592c05c-d480-492b-a255-26bb1c3c9684 3aa1c8ed-8c34-49e9-8b5d-fa5e71085b10 5eea3ef6-1021-4f1d-8357-4a751c2dee10 348fc2f6-f334-46a9-a714-24e9c83b2768 a6d1063e-e6f8-4a95-8ffc-320c84058d68 33d9d253-1250-4f4b-9fea-8ed7bdf261e8 29133609-5cd1-4d2d-aee1-68bb03555984 1dcdb12c-3e9d-4e96-9699-d9b09423de83 78660848-b95c-4686-bab6-cbfa825fd655 fcf33aba-99b9-44bf-beb3-b09c52b98fdc e20093b1-f6c4-48f8-b0a4-87bed5608b85 47dbab18-6b54-44be-a337-b84ed1113558 18101198-0916-41eb-b609-c50258e6efc7</tstamps>
+    </comp>
+    <comp ref="SW?">
+      <value>5MS1S102AM6QE</value>
+      <footprint>Mlab_SW:5MS1S102AM6QE</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b66</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8b66"/>
+      <property name="Sheetname" value="Power_management"/>
+      <property name="Sheetfile" value="Power_management.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/Power_management/" tstamps="/2cb60f7b-1af1-45bb-a380-98cd5f4fdeca/"/>
+      <tstamps>927e1836-82eb-4912-9ab2-788943abec30</tstamps>
+    </comp>
+    <comp ref="U?">
+      <value>TPS631000DRLR</value>
+      <footprint>SOTFL50P160X60-8N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</datasheet>
+      <fields>
+        <field name="Description">Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS631000DRLR</field>
+        <field name="Mouser Part Number">595-TPS631000DRLR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D</field>
+      </fields>
+      <libsource lib="TPS631000DRLR" part="TPS631000DRLR" description="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
+      <property name="Description" value="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
+      <property name="Height" value="0.6"/>
+      <property name="Mouser Part Number" value="595-TPS631000DRLR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPS631000DRLR"/>
+      <property name="Sheetname" value="Power_management"/>
+      <property name="Sheetfile" value="Power_management.kicad_sch"/>
+      <property name="ki_description" value="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
+      <sheetpath names="/Power_management/" tstamps="/2cb60f7b-1af1-45bb-a380-98cd5f4fdeca/"/>
+      <tstamps>82cb26f8-8114-4520-bef8-07869b8a3f86</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BQ294602DRVR" part="BQ294602DRVR">
+      <description>Family Overvoltage Protection Device for 1-Cell Li-Ion Batteries, with 4.35v OVP</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq2946</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">BQ294602DRVR</field>
+        <field name="Footprint">SON65P200X200X80-7N</field>
+        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq2946</field>
+        <field name="Description">Family Overvoltage Protection Device for 1-Cell Li-Ion Batteries, with 4.35v OVP</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">595-BQ294602DRVR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ294602DRVR?qs=3jfYfyvUSwAEHeUsQ5zEVQ%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">BQ294602DRVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="V1" type="passive"/>
+        <pin num="3" name="VSS_1" type="passive"/>
+        <pin num="4" name="VSS_2" type="passive"/>
+        <pin num="5" name="VDD" type="passive"/>
+        <pin num="6" name="OUT" type="passive"/>
+        <pin num="7" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CY15B108QN-40SXI" part="CY15B108QN-40SXI">
+      <description>F-RAM Excelon LP 40 MHz 8-EIAJ</description>
+      <docs>https://www.mouser.in/datasheet/2/196/CYPR_S_A0011123055_1-3004611.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">CY15B108QN-40SXI</field>
+        <field name="Footprint">SOIC127P800X203-8N</field>
+        <field name="Datasheet">https://www.mouser.in/datasheet/2/196/CYPR_S_A0011123055_1-3004611.pdf</field>
+        <field name="Description">F-RAM Excelon LP 40 MHz 8-EIAJ</field>
+        <field name="Height">2.03</field>
+        <field name="Mouser Part Number">727-CY15B108QN-40SXI</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Cypress/CY15B108QN-40SXI?qs=P1JMDcb91o4DSS%2FkAQM5uA%3D%3D</field>
+        <field name="Manufacturer_Name">Infineon / Cypress</field>
+        <field name="Manufacturer_Part_Number">CY15B108QN-40SXI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="passive"/>
+        <pin num="2" name="SO" type="passive"/>
+        <pin num="3" name="~{WP}" type="passive"/>
+        <pin num="4" name="VSS" type="passive"/>
+        <pin num="5" name="SI" type="passive"/>
+        <pin num="6" name="SCK" type="passive"/>
+        <pin num="7" name="DNU" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Female">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="ATMEGA1284P-AU-atmel">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA1284P-AU-atmel</field>
+        <field name="Footprint">TQFP44</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT13/MOSI)PB5" type="bidirectional"/>
+        <pin num="2" name="(PCINT14/MISO)PB6" type="bidirectional"/>
+        <pin num="3" name="(PCINT15/SCK)PB7" type="bidirectional"/>
+        <pin num="4" name="~{RESET}" type="input"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="XTAL2" type="bidirectional"/>
+        <pin num="8" name="XTAL1" type="bidirectional"/>
+        <pin num="9" name="(PCINT24/RXD0)PD0" type="bidirectional"/>
+        <pin num="10" name="(PCINT25/TXD0)PD1" type="bidirectional"/>
+        <pin num="11" name="(PCINT26/RXD1/INT0)PD2" type="bidirectional"/>
+        <pin num="12" name="(PCINT27/TXD1/INT1)PD3" type="bidirectional"/>
+        <pin num="13" name="(PCINT28/XCK1/OC1B)PD4" type="bidirectional"/>
+        <pin num="14" name="(PCINT294/OC1A)PD5" type="bidirectional"/>
+        <pin num="15" name="(PCINT30/OC2B/ICP)PD6" type="bidirectional"/>
+        <pin num="16" name="(PCINT31/OC2A)PD7" type="bidirectional"/>
+        <pin num="17" name="VCC" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="(PCINT16/SCL)PC0" type="bidirectional"/>
+        <pin num="20" name="(PCINT17/SDA)PC1" type="bidirectional"/>
+        <pin num="21" name="(PCINT18/TCK)PC2" type="bidirectional"/>
+        <pin num="22" name="(PCINT19/TMS)PC3" type="bidirectional"/>
+        <pin num="23" name="(PCINT20/TDO)PC4" type="bidirectional"/>
+        <pin num="24" name="(PCINT21/TDI)PC5" type="bidirectional"/>
+        <pin num="25" name="(PCINT22/TOSC1)PC6" type="bidirectional"/>
+        <pin num="26" name="(PCINT23/TOSC2)PC7" type="bidirectional"/>
+        <pin num="27" name="AVCC" type="power_in"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="AREF" type="power_in"/>
+        <pin num="30" name="(PCINT7/ADC7)PA7" type="bidirectional"/>
+        <pin num="31" name="(PCINT6/ADC6)PA6" type="bidirectional"/>
+        <pin num="32" name="(PCINT5/ADC5)PA5" type="bidirectional"/>
+        <pin num="33" name="(PCINT4/ADC4)PA4" type="bidirectional"/>
+        <pin num="34" name="(PCINT3/ADC3)PA3" type="bidirectional"/>
+        <pin num="35" name="(PCINT2/ADC2)PA2" type="bidirectional"/>
+        <pin num="36" name="(PCINT1/ADC1)PA1" type="bidirectional"/>
+        <pin num="37" name="(PCINT0/ADC0)PA0" type="bidirectional"/>
+        <pin num="38" name="VCC" type="power_in"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="(PCINT8/T0/XCK)PB0" type="bidirectional"/>
+        <pin num="41" name="(PCINT9/CLKO/T1)PB1" type="bidirectional"/>
+        <pin num="42" name="(PCINT10/AIN0/INT2)PB2" type="bidirectional"/>
+        <pin num="43" name="(PCINT11/AIN1/OC0)PB3" type="bidirectional"/>
+        <pin num="44" name="(PCINT12/OC0B/~{SS})PB4" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="Battery_Cell-device">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="C-device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="Crystal-device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="D-device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="EMI_Filter_C-device">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EMI_Filter_C-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="HEADER_2x01_PARALLEL-MLAB_HEADER">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x01_PARALLEL-MLAB_HEADER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="L-device">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="LED-device">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="PCF85263A-MLAB_IO">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCF85263A-MLAB_IO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OSCI" type="input"/>
+        <pin num="2" name="OSCO" type="input"/>
+        <pin num="3" name="VBAT" type="input"/>
+        <pin num="4" name="TS" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="SDA" type="input"/>
+        <pin num="7" name="SCL" type="input"/>
+        <pin num="8" name="CLK" type="input"/>
+        <pin num="9" name="INTA" type="input"/>
+        <pin num="10" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="Polyfuse-device">
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="R-device">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="SD_Card-Connector">
+      <footprints>
+        <fp>SD_Card_Receptacle</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SD_Card-Connector</field>
+        <field name="Footprint">10067847-001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CD/DAT3" type="input"/>
+        <pin num="2" name="CMD" type="input"/>
+        <pin num="3" name="VSS" type="input"/>
+        <pin num="4" name="VDD" type="input"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="input"/>
+        <pin num="7" name="DAT0" type="input"/>
+        <pin num="8" name="DAT1" type="input"/>
+        <pin num="9" name="DAT2" type="input"/>
+        <pin num="10" name="CARD_DETECT" type="input"/>
+        <pin num="11" name="WRITE_PROTECT" type="input"/>
+        <pin num="12" name="SHELL1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor">
+      <description>Temperature dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="BQ34Z100">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ34Z100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P2" type="unspecified"/>
+        <pin num="2" name="VEN" type="unspecified"/>
+        <pin num="3" name="P1" type="unspecified"/>
+        <pin num="4" name="BAT" type="unspecified"/>
+        <pin num="5" name="CE" type="unspecified"/>
+        <pin num="6" name="REGIN" type="unspecified"/>
+        <pin num="7" name="REG25" type="unspecified"/>
+        <pin num="8" name="VSS" type="unspecified"/>
+        <pin num="9" name="SRP" type="unspecified"/>
+        <pin num="10" name="SRN" type="unspecified"/>
+        <pin num="11" name="P6/TS" type="unspecified"/>
+        <pin num="12" name="P5/HDQ" type="unspecified"/>
+        <pin num="13" name="P4/SCL" type="unspecified"/>
+        <pin num="14" name="P3/SDA" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-LION2CELL01C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="JUMP_2x1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_2x1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-LION2CELL01C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="MOSFET-N">
+      <footprints>
+        <fp>TO92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOSFET-N</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-LION2CELL01C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="_">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">_</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTC4041EUFD#PBF" part="LTC4041EUFD#PBF">
+      <description>Power Management Specialized - PMIC 2.5A Supercapacitor Backup Power Manager</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4041.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LTC4041EUFD#PBF</field>
+        <field name="Footprint">QFN50P400X500X80-25N-D</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4041.pdf</field>
+        <field name="Description">Power Management Specialized - PMIC 2.5A Supercapacitor Backup Power Manager</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">584-4041EUFDPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC4041EUFDPBF?qs=gTYE2QTfZfRpspSzeZf9Cw%3D%3D</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">LTC4041EUFD#PBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSYS_1" type="passive"/>
+        <pin num="2" name="PROG" type="passive"/>
+        <pin num="3" name="IMON" type="passive"/>
+        <pin num="4" name="~{CHGEN}" type="passive"/>
+        <pin num="5" name="~{BSTEN}" type="passive"/>
+        <pin num="6" name="VIN" type="passive"/>
+        <pin num="7" name="CLN" type="passive"/>
+        <pin num="8" name="~{CAPFLT}" type="passive"/>
+        <pin num="9" name="BAL" type="passive"/>
+        <pin num="10" name="RSTFB" type="passive"/>
+        <pin num="11" name="SYSGD" type="passive"/>
+        <pin num="12" name="CAPFB" type="passive"/>
+        <pin num="13" name="CAPGD" type="passive"/>
+        <pin num="14" name="~{PFO}" type="passive"/>
+        <pin num="15" name="IGATE" type="passive"/>
+        <pin num="16" name="OVSNS" type="passive"/>
+        <pin num="17" name="CPF" type="passive"/>
+        <pin num="18" name="BSTFB" type="passive"/>
+        <pin num="19" name="PFI" type="passive"/>
+        <pin num="20" name="CAPSEL" type="passive"/>
+        <pin num="21" name="SW_1" type="passive"/>
+        <pin num="22" name="SW_2" type="passive"/>
+        <pin num="23" name="SCAP" type="passive"/>
+        <pin num="24" name="VSYS_2" type="passive"/>
+        <pin num="25" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS631000DRLR" part="TPS631000DRLR">
+      <description>Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS631000DRLR</field>
+        <field name="Footprint">SOTFL50P160X60-8N</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</field>
+        <field name="Description">Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</field>
+        <field name="Height">0.6</field>
+        <field name="Mouser Part Number">595-TPS631000DRLR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS631000DRLR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="passive"/>
+        <pin num="2" name="LX2" type="passive"/>
+        <pin num="3" name="LX1" type="passive"/>
+        <pin num="4" name="VIN" type="passive"/>
+        <pin num="5" name="EN" type="passive"/>
+        <pin num="6" name="MODE" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="FB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7000">
+      <description>0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92</description>
+      <docs>https://www.vishay.com/docs/70226/70226.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7000</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.vishay.com/docs/70226/70226.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BQ294602DRVR">
+      <uri>C:/Users/somme/Downloads/BQ294602DRVR/BQ294602DRVR/KiCad/BQ294602DRVR.lib</uri>
+    </library>
+    <library logical="CY15B108QN-40SXI">
+      <uri>C:/Users/somme/Downloads/CY15B108QN-40SXI/CY15B108QN-40SXI/KiCad/CY15B108QN-40SXI.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="LTC4041EUFD#PBF">
+      <uri>C:/Users/somme/Downloads/LTC4041/LTC4041EUFD#PBF/KiCad/LTC4041EUFD#PBF.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="TPS631000DRLR">
+      <uri>C:/Users/somme/Downloads/TPS631000DRLR/TPS631000DRLR/KiCad/TPS631000DRLR.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V8">
+      <node ref="C?" pin="1" pintype="passive"/>
+      <node ref="C?" pin="2" pintype="passive"/>
+      <node ref="R?" pin="1" pintype="passive"/>
+      <node ref="U?" pin="10" pinfunction="OE" pintype="input"/>
+      <node ref="U?" pin="2" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U?" pin="22" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U?" pin="5" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U?" pin="8" pinfunction="VDDIO" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3.3V">
+      <node ref="C?" pin="1" pintype="passive"/>
+      <node ref="C?" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="IC?" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="IC?" pin="2" pinfunction="PS" pintype="input"/>
+      <node ref="IC?" pin="8" pinfunction="VDD" pintype="passive"/>
+      <node ref="J?" pin="2" pintype="input"/>
+      <node ref="J?" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="L?" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R?" pin="1" pintype="passive"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="1" pinfunction="VOUT" pintype="passive"/>
+      <node ref="U?" pin="10" pinfunction="VDD" pintype="input"/>
+      <node ref="U?" pin="17" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U?" pin="2" pinfunction="VIN" pintype="bidirectional"/>
+      <node ref="U?" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U?" pin="38" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U?" pin="4" pinfunction="VBIAS" pintype="bidirectional"/>
+      <node ref="U?" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U?" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="C?" pin="1" pintype="passive"/>
+      <node ref="R?" pin="1" pintype="passive"/>
+      <node ref="U?" pin="13" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U?" pin="19" pinfunction="VCCB" pintype="power_in"/>
+    </net>
+    <net code="4" name="+5V">
+      <node ref="J?" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="5" name="/Microcontroller/AREF">
+      <node ref="C?" pin="1" pintype="passive"/>
+      <node ref="J?" pin="1" pintype="input"/>
+      <node ref="R?" pin="1" pintype="passive"/>
+      <node ref="U?" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U?" pin="2" pinfunction="Vout" pintype="power_out"/>
+    </net>
+    <net code="6" name="/Microcontroller/AVCC">
+      <node ref="C?" pin="1" pintype="passive"/>
+      <node ref="L?" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U?" pin="27" pinfunction="AVCC" pintype="power_in"/>
+    </net>
+    <net code="7" name="/Microcontroller/RST#">
+      <node ref="C?" pin="2" pintype="passive"/>
+      <node ref="J?" pin="1" pintype="input"/>
+      <node ref="J?" pin="2" pintype="input"/>
+    </net>
+    <net code="8" name="/Microcontroller/RST#_P">
+      <node ref="C?" pin="1" pintype="passive"/>
+      <node ref="J?" pin="5" pintype="input"/>
+      <node ref="R?" pin="1" pintype="passive"/>
+      <node ref="U?" pin="4" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="9" name="/Peripherals/AUX_SCL_1V8">
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="7" pinfunction="AUX_CL" pintype="output"/>
+      <node ref="U?" pin="8" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/Peripherals/AUX_SDA_1V8">
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="21" pinfunction="AUX_DA" pintype="bidirectional"/>
+      <node ref="U?" pin="6" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/Peripherals/INT1_1V8">
+      <node ref="U?" pin="12" pinfunction="INT1" pintype="output"/>
+      <node ref="U?" pin="9" pinfunction="A8" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/Peripherals/INTA">
+      <node ref="J?" pin="1" pintype="input"/>
+      <node ref="J?" pin="2" pintype="input"/>
+      <node ref="U?" pin="9" pinfunction="INTA" pintype="input"/>
+    </net>
+    <net code="13" name="/Peripherals/SCL_I2C_1V8">
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="23" pinfunction="SCL/SCLK" pintype="input"/>
+      <node ref="U?" pin="4" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/Peripherals/SDA_I2C_1V8">
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="1" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="U?" pin="24" pinfunction="SDA/SDI" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Power_management/+5V">
+      <node ref="C?" pin="1" pintype="passive"/>
+      <node ref="C?" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J?" pin="1" pintype="input"/>
+      <node ref="J?" pin="2" pintype="input"/>
+      <node ref="J?" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U?" pin="4" pinfunction="VIN" pintype="passive"/>
+      <node ref="U?" pin="5" pinfunction="EN" pintype="passive"/>
+    </net>
+    <net code="16" name="/Power_management/igate">
+      <node ref="IC?" pin="15" pinfunction="IGATE" pintype="passive"/>
+      <node ref="Q?" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="17" name="/battery/BAT+">
+      <node ref="C?" pin="1" pintype="passive"/>
+      <node ref="D?" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F?" pin="2" pintype="passive"/>
+      <node ref="J?" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J?" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q?" pin="D" pinfunction="D" pintype="passive"/>
+      <node ref="R?" pin="1" pintype="passive"/>
+      <node ref="U?" pin="14" pinfunction="VCC" pintype="unspecified"/>
+      <node ref="U?" pin="4" pinfunction="BAT" pintype="unspecified"/>
+      <node ref="U?" pin="5" pinfunction="EN" pintype="passive"/>
+      <node ref="U?" pin="6" pinfunction="REGIN" pintype="unspecified"/>
+      <node ref="U?" pin="9" pinfunction="CLR" pintype="unspecified"/>
+    </net>
+    <net code="18" name="/battery/CE">
+      <node ref="J?" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J?" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R?" pin="1" pintype="passive"/>
+      <node ref="U?" pin="16" pinfunction="CE" pintype="unspecified"/>
+    </net>
+    <net code="19" name="/battery/CMODE">
+      <node ref="C?" pin="1" pintype="passive"/>
+      <node ref="J?" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U?" pin="7" pinfunction="TTC" pintype="unspecified"/>
+    </net>
+    <net code="20" name="/battery/HDQ">
+      <node ref="J?" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J?" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U?" pin="12" pinfunction="P5/HDQ" pintype="unspecified"/>
+    </net>
+    <net code="21" name="/battery/P1">
+      <node ref="U?" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="U?" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="U?" pin="3" pinfunction="P1" pintype="unspecified"/>
+    </net>
+    <net code="22" name="/battery/P2">
+      <node ref="U?" pin="1" pinfunction="P2" pintype="unspecified"/>
+      <node ref="U?" pin="8" pinfunction="CLK" pintype="unspecified"/>
+    </net>
+    <net code="23" name="/battery/PG">
+      <node ref="D?" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J?" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J?" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U?" pin="5" pinfunction="PG" pintype="unspecified"/>
+    </net>
+    <net code="24" name="/battery/SCL">
+      <node ref="J?" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J?" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U?" pin="13" pinfunction="P4/SCL" pintype="unspecified"/>
+    </net>
+    <net code="25" name="/battery/SDA">
+      <node ref="J?" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J?" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U?" pin="14" pinfunction="P3/SDA" pintype="unspecified"/>
+    </net>
+    <net code="26" name="/battery/STAT1">
+      <node ref="D?" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J?" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J?" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U?" pin="2" pinfunction="STAT1" pintype="unspecified"/>
+    </net>
+    <net code="27" name="/battery/STAT2">
+      <node ref="D?" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J?" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J?" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U?" pin="19" pinfunction="STAT2" pintype="unspecified"/>
+    </net>
+    <net code="28" name="AUX_SCL_3V3">
+      <node ref="J?" pin="1" pintype="input"/>
+      <node ref="J?" pin="2" pintype="input"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="13" pinfunction="B7" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="AUX_SDA_3V3">
+      <node ref="J?" pin="1" pintype="input"/>
+      <node ref="J?" pin="2" pintype="input"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="15" pinfunction="B5" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="BUSY_LORA">
+      <node ref="U?" pin="21" pinfunction="(PCINT18/TCK)PC2" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="CAPFLT">
+      <node ref="IC?" pin="8" pinfunction="~{CAPFLT}" pintype="passive"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="CAPGD">
+      <node ref="IC?" pin="13" pinfunction="CAPGD" pintype="passive"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="CS_CONN_1">
+      <node ref="J?" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="41" pinfunction="(PCINT9/CLKO/T1)PB1" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="CS_CONN_2">
+      <node ref="J?" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="43" pinfunction="(PCINT11/AIN1/OC0)PB3" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="CS_FRAM">
+      <node ref="IC?" pin="1" pinfunction="~{CS}" pintype="passive"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="42" pinfunction="(PCINT10/AIN0/INT2)PB2" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="CS_LORA">
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="23" pinfunction="(PCINT20/TDO)PC4" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="CS_SDCARD">
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="44" pinfunction="(PCINT12/OC0B/~{SS})PB4" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="DIO_LORA">
+      <node ref="U?" pin="22" pinfunction="(PCINT19/TMS)PC3" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="GND">
+      <node ref="BT?" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C?" pin="1" pintype="passive"/>
+      <node ref="C?" pin="2" pintype="passive"/>
+      <node ref="D?" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D?" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC?" pin="20" pinfunction="CAPSEL" pintype="passive"/>
+      <node ref="IC?" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="IC?" pin="3" pinfunction="VSS_1" pintype="passive"/>
+      <node ref="IC?" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC?" pin="5" pinfunction="~{BSTEN}" pintype="passive"/>
+      <node ref="IC?" pin="7" pinfunction="EP" pintype="passive"/>
+      <node ref="J?" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J?" pin="12" pinfunction="SHELL1" pintype="input"/>
+      <node ref="J?" pin="2" pintype="input"/>
+      <node ref="J?" pin="3" pinfunction="VSS" pintype="input"/>
+      <node ref="J?" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J?" pin="5" pintype="input"/>
+      <node ref="J?" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J?" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Q?" pin="S" pinfunction="S" pintype="passive"/>
+      <node ref="R?" pin="1" pintype="passive"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="TH?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="10" pinfunction="VSS" pintype="unspecified"/>
+      <node ref="U?" pin="11" pinfunction="FSYNC" pintype="input"/>
+      <node ref="U?" pin="14" pinfunction="B6" pintype="bidirectional"/>
+      <node ref="U?" pin="16" pinfunction="B4" pintype="bidirectional"/>
+      <node ref="U?" pin="17" pinfunction="PGND" pintype="unspecified"/>
+      <node ref="U?" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U?" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U?" pin="20" pinfunction="GND" pintype="passive"/>
+      <node ref="U?" pin="21" pinfunction="pgnd" pintype="unspecified"/>
+      <node ref="U?" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U?" pin="3" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="U?" pin="39" pinfunction="GND" pintype="power_in"/>
+      <node ref="U?" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U?" pin="5" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="U?" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U?" pin="7" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U?" pin="8" pinfunction="VSS" pintype="unspecified"/>
+      <node ref="U?" pin="9" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="INT1">
+      <node ref="U?" pin="12" pinfunction="B8" pintype="bidirectional"/>
+      <node ref="U?" pin="16" pinfunction="(PCINT31/OC2A)PD7" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="IO_SWCH">
+      <node ref="U?" pin="3" pinfunction="ON" pintype="bidirectional"/>
+      <node ref="U?" pin="34" pinfunction="(PCINT3/ADC3)PA3" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="LED">
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="26" pinfunction="(PCINT23/TOSC2)PC7" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="MISO_SPI">
+      <node ref="IC?" pin="2" pinfunction="SO" pintype="passive"/>
+      <node ref="J?" pin="1" pintype="input"/>
+      <node ref="J?" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="2" pinfunction="(PCINT14/MISO)PB6" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="MOSI_SPI">
+      <node ref="IC?" pin="5" pinfunction="SI" pintype="passive"/>
+      <node ref="J?" pin="4" pintype="input"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="1" pinfunction="(PCINT13/MOSI)PB5" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="PA0">
+      <node ref="J?" pin="1" pintype="input"/>
+      <node ref="J?" pin="2" pintype="input"/>
+      <node ref="U?" pin="37" pinfunction="(PCINT0/ADC0)PA0" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="PA1">
+      <node ref="J?" pin="3" pintype="input"/>
+      <node ref="J?" pin="4" pintype="input"/>
+      <node ref="U?" pin="36" pinfunction="(PCINT1/ADC1)PA1" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="PA2">
+      <node ref="J?" pin="5" pintype="input"/>
+      <node ref="J?" pin="6" pintype="input"/>
+      <node ref="U?" pin="35" pinfunction="(PCINT2/ADC2)PA2" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="PFO">
+      <node ref="IC?" pin="14" pinfunction="~{PFO}" pintype="passive"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="RST_LORA">
+      <node ref="U?" pin="24" pinfunction="(PCINT21/TDI)PC5" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="RX0">
+      <node ref="U?" pin="9" pinfunction="(PCINT24/RXD0)PD0" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="RX1">
+      <node ref="J?" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U?" pin="11" pinfunction="(PCINT26/RXD1/INT0)PD2" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="SCK_SPI">
+      <node ref="IC?" pin="6" pinfunction="SCK" pintype="passive"/>
+      <node ref="J?" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J?" pin="3" pintype="input"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="3" pinfunction="(PCINT15/SCK)PB7" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="SCL_I2C">
+      <node ref="IC?" pin="8" pinfunction="SCLK" pintype="input"/>
+      <node ref="J?" pin="1" pintype="input"/>
+      <node ref="J?" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="17" pinfunction="B3" pintype="bidirectional"/>
+      <node ref="U?" pin="19" pinfunction="(PCINT16/SCL)PC0" pintype="bidirectional"/>
+      <node ref="U?" pin="6" pinfunction="SCL" pintype="input"/>
+      <node ref="U?" pin="7" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="54" name="SDA_I2C">
+      <node ref="IC?" pin="7" pinfunction="SDI/SDA" pintype="bidirectional"/>
+      <node ref="J?" pin="1" pintype="input"/>
+      <node ref="J?" pin="2" pintype="input"/>
+      <node ref="J?" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+      <node ref="U?" pin="20" pinfunction="(PCINT17/SDA)PC1" pintype="bidirectional"/>
+      <node ref="U?" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U?" pin="6" pinfunction="SDA" pintype="input"/>
+    </net>
+    <net code="55" name="SYSGD">
+      <node ref="IC?" pin="11" pinfunction="SYSGD" pintype="passive"/>
+      <node ref="R?" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="TX0">
+      <node ref="U?" pin="10" pinfunction="(PCINT25/TXD0)PD1" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="TX1">
+      <node ref="J?" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U?" pin="12" pinfunction="(PCINT27/TXD1/INT1)PD3" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="VDC">
+      <node ref="R?" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="VDD">
+      <node ref="J?" pin="1" pintype="input"/>
+      <node ref="J?" pin="2" pintype="input"/>
+    </net>
+    <net code="60" name="WP_FRAM">
+      <node ref="IC?" pin="3" pinfunction="~{WP}" pintype="passive"/>
+      <node ref="U?" pin="25" pinfunction="(PCINT22/TOSC1)PC6" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
