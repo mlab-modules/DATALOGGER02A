@@ -11,16 +11,16 @@ image: doc/gen/img/DATALOGGER02A-top.png
 images:
 - doc/gen/img/DATALOGGER02-top.png
 - doc/gen/img/DATALOGGER02-bottom.png
-- doc/gen/DATALOGGER02-schematic.svg
 - doc/gen/DATALOGGER02-Peripherals.svg
+- doc/gen/DATALOGGER02-Connectors.svg
 - doc/gen/DATALOGGER02-battery.svg
 - doc/gen/DATALOGGER02-Microcontroller.svg
-- doc/gen/DATALOGGER02-Connectors.svg
+- doc/gen/DATALOGGER02-schematic.svg
 - doc/gen/DATALOGGER02-Power_management.svg
 - doc/gen/img/DATALOGGER02-bottom.svg
 - doc/gen/img/DATALOGGER02-top.svg
-- hw/cam_profi/docs/DATALOGGER02A-assembly_page_01.svg
 - hw/cam_profi/docs/DATALOGGER02A-assembly_page_02.svg
+- hw/cam_profi/docs/DATALOGGER02A-assembly_page_01.svg
 issues: 0
 mark: 50
 mod_ibom: hw/cam_profi/ibom/DATALOGGER02-ibom.html
