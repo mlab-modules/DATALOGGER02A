@@ -19,11 +19,11 @@ images:
 - doc/gen/DATALOGGER02-Power_management.svg
 - doc/gen/img/DATALOGGER02-bottom.svg
 - doc/gen/img/DATALOGGER02-top.svg
-- hw/cam_profi/docs/DATALOGGER02A-assembly_page_02.svg
-- hw/cam_profi/docs/DATALOGGER02A-assembly_page_01.svg
+- hw/cam_profi/assembly/DATALOGGER02-assembly_page_01.svg
+- hw/cam_profi/assembly/DATALOGGER02-assembly_page_02.svg
 issues: 0
 mark: 50
-mod_ibom: hw/cam_profi/ibom/DATALOGGER02-ibom.html
+mod_ibom: hw/cam_profi/DATALOGGER02-ibom.html
 mod_scheme: doc/gen/DATALOGGER02-schematic.pdf
 tags:
 - mlab
