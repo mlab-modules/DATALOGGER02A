@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/DATALOGGER02.kicad_sch</source>
-    <date>Fri Jul 21 03:26:21 2023</date>
-    <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
+    <date>Mon Sep 11 01:09:24 2023</date>
+    <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>DATALOGGER01A</title>
@@ -131,7 +131,7 @@
       <property name="Sheetname" value="battery"/>
       <property name="Sheetfile" value="battery.kicad_sch"/>
       <sheetpath names="/battery/" tstamps="/df8e542d-4a80-4d5b-8f9c-c0d69db7158b/"/>
-      <tstamps>77f53a61-0c41-42d4-85eb-bf0396807483 a19aad90-a27f-47ec-b795-c24b17940bb5 33ea1e73-7e87-4ba9-8be9-f7f6db3b49c9 99c61636-f24e-49b6-95c8-63b915cfec31 e99e6658-95a5-4196-a20e-0bc461e2b320 3036141e-680d-425f-b494-872fe89c4a92 2fa0c1eb-74b3-44a3-8536-1d107550d201 d1819f77-2a4e-4eef-a0f1-52426388c612 0c0e2596-39e8-4fd0-af8e-60c64965c7eb f9ede70a-3263-4939-b9c5-98fddf14e4b6 5d8b44ea-2151-4933-a23b-861046067c04 5de0d125-6ff9-497e-a350-c39bf0d7ee19 349b3a54-bc25-4c0f-a037-dc38c9aede25 0a8bc38a-e5f6-44d8-a0f3-19138fc69f6f 802f9802-09dd-47ec-aa3e-aa60a8168a14 97f0806a-7100-4586-8c7b-72ea0c1bd3ac 04e0737f-5638-4d6d-9baa-869578a18788</tstamps>
+      <tstamps>77f53a61-0c41-42d4-85eb-bf0396807483 a19aad90-a27f-47ec-b795-c24b17940bb5 33ea1e73-7e87-4ba9-8be9-f7f6db3b49c9 99c61636-f24e-49b6-95c8-63b915cfec31 e99e6658-95a5-4196-a20e-0bc461e2b320 3036141e-680d-425f-b494-872fe89c4a92 2fa0c1eb-74b3-44a3-8536-1d107550d201 d1819f77-2a4e-4eef-a0f1-52426388c612 0c0e2596-39e8-4fd0-af8e-60c64965c7eb 5d8b44ea-2151-4933-a23b-861046067c04 f9ede70a-3263-4939-b9c5-98fddf14e4b6 5de0d125-6ff9-497e-a350-c39bf0d7ee19 349b3a54-bc25-4c0f-a037-dc38c9aede25 0a8bc38a-e5f6-44d8-a0f3-19138fc69f6f 802f9802-09dd-47ec-aa3e-aa60a8168a14 97f0806a-7100-4586-8c7b-72ea0c1bd3ac 04e0737f-5638-4d6d-9baa-869578a18788</tstamps>
     </comp>
     <comp ref="D?">
       <value>ORAGE</value>
@@ -355,7 +355,7 @@
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
       <sheetpath names="/Peripherals/" tstamps="/8c16a5bf-8019-4e77-9247-0011396b8bad/"/>
-      <tstamps>a02bc618-64c1-44a0-8c56-224de66a5d75 e51d9173-a20a-41b4-b53b-66a58ed6142a e8a1c547-f2e8-4ed1-814b-f097dea52403 861ac993-119e-43ce-8b12-19077892e773 baaf6ab2-b83f-480b-871c-77f7f6e59705 95dd4e40-14f7-4d11-afba-7e04c83403e5 6a51798d-bb10-478a-b242-9a93d236df7b a1b5b3bb-ddbf-4a94-a0ee-aa1e899bf9a7 f263481f-454f-4b6b-b56e-1aec257c6758 b5c4fbe6-a8a3-41c5-9765-3a3663da3814 455b9df8-d000-4655-88b3-531b17fbec74 a7c49aeb-32d1-4251-b672-65ef11789aa7 602b320d-533f-4db9-ad99-5710f56f2373 d6347a82-ea2e-40f5-986f-8dc5592fd858 2d795cc8-9477-4531-9c70-fb9289917596</tstamps>
+      <tstamps>a02bc618-64c1-44a0-8c56-224de66a5d75 861ac993-119e-43ce-8b12-19077892e773 e51d9173-a20a-41b4-b53b-66a58ed6142a e8a1c547-f2e8-4ed1-814b-f097dea52403 baaf6ab2-b83f-480b-871c-77f7f6e59705 a7c49aeb-32d1-4251-b672-65ef11789aa7 95dd4e40-14f7-4d11-afba-7e04c83403e5 6a51798d-bb10-478a-b242-9a93d236df7b a1b5b3bb-ddbf-4a94-a0ee-aa1e899bf9a7 d6347a82-ea2e-40f5-986f-8dc5592fd858 602b320d-533f-4db9-ad99-5710f56f2373 b5c4fbe6-a8a3-41c5-9765-3a3663da3814 f263481f-454f-4b6b-b56e-1aec257c6758 455b9df8-d000-4655-88b3-531b17fbec74 2d795cc8-9477-4531-9c70-fb9289917596</tstamps>
     </comp>
     <comp ref="D?">
       <value>HLMP-K150+FIX-LED-313</value>
@@ -418,7 +418,7 @@
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
       <sheetpath names="/Peripherals/" tstamps="/8c16a5bf-8019-4e77-9247-0011396b8bad/"/>
-      <tstamps>da9c7ae4-f63b-4d82-a871-3052289fe2c4 4f60f2bb-b695-4e9d-8b9f-d410e393658a d85acf97-70d5-4f57-ac03-86335a79c754 17dfd311-8378-4801-93ff-1ced8ae077fd a2ba20d7-f8fc-4f2f-b2f1-9ed19c61f487 211e83ec-b64b-4af7-8ea0-0975f92e3b37 50d78b0e-984a-4f33-bb17-bcb0c8452df2 68165cc3-b340-4a18-afde-31bd2542add4 79fa3d32-2f85-486c-96bf-9acdc2632c29 f043d182-da41-4c38-8261-2a1d862ca86f bc33b115-29f7-49a9-9fe3-bf0b0952d742 a20c7713-d151-4759-a4f0-f1475073932d 33a51c04-1c0d-4797-9433-c0d594ed829d ef0bf983-1681-4087-971e-70c56234551d 0990a216-11d5-4271-b2a9-e73bb2fd1559 eed9e531-632c-4aaa-925b-8b953aa68d52 bc6e0213-ebbc-4ff7-b728-10f43675dd5c 5bc28697-ba4d-4d0c-84bc-6fee6b271919 059e94b2-afd4-4c34-baea-2935b0808cbe</tstamps>
+      <tstamps>da9c7ae4-f63b-4d82-a871-3052289fe2c4 a2ba20d7-f8fc-4f2f-b2f1-9ed19c61f487 d85acf97-70d5-4f57-ac03-86335a79c754 4f60f2bb-b695-4e9d-8b9f-d410e393658a 211e83ec-b64b-4af7-8ea0-0975f92e3b37 17dfd311-8378-4801-93ff-1ced8ae077fd 50d78b0e-984a-4f33-bb17-bcb0c8452df2 68165cc3-b340-4a18-afde-31bd2542add4 79fa3d32-2f85-486c-96bf-9acdc2632c29 f043d182-da41-4c38-8261-2a1d862ca86f bc6e0213-ebbc-4ff7-b728-10f43675dd5c 5bc28697-ba4d-4d0c-84bc-6fee6b271919 eed9e531-632c-4aaa-925b-8b953aa68d52 bc33b115-29f7-49a9-9fe3-bf0b0952d742 a20c7713-d151-4759-a4f0-f1475073932d 0990a216-11d5-4271-b2a9-e73bb2fd1559 33a51c04-1c0d-4797-9433-c0d594ed829d ef0bf983-1681-4087-971e-70c56234551d 059e94b2-afd4-4c34-baea-2935b0808cbe</tstamps>
     </comp>
     <comp ref="U?">
       <value>PCF85263A</value>
@@ -432,7 +432,7 @@
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
       <sheetpath names="/Peripherals/" tstamps="/8c16a5bf-8019-4e77-9247-0011396b8bad/"/>
-      <tstamps>f25d9116-c4bb-44fc-a5e7-5c7cee9449e1 54f644c0-cf5d-4ea9-b616-c576fc53ec3e 5939e778-080a-46f6-bbe2-8b5a6433c82c ad62d6ea-53f6-41c5-9159-85c5e487fbeb ee53f010-6fd1-4fb0-ad1d-f3afcbb787d9 46617a89-661a-4dfd-9338-2d502044c0ae</tstamps>
+      <tstamps>f25d9116-c4bb-44fc-a5e7-5c7cee9449e1 54f644c0-cf5d-4ea9-b616-c576fc53ec3e ee53f010-6fd1-4fb0-ad1d-f3afcbb787d9 ad62d6ea-53f6-41c5-9159-85c5e487fbeb 5939e778-080a-46f6-bbe2-8b5a6433c82c 46617a89-661a-4dfd-9338-2d502044c0ae</tstamps>
     </comp>
     <comp ref="Y?">
       <value>ABS07-120-32.768KHZ-T</value>
@@ -456,7 +456,7 @@
       <property name="ki_description" value="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/Connectors/" tstamps="/57abb78d-4ec7-40f9-bbe8-c79df3c568d9/"/>
-      <tstamps>2416e236-8130-4ce3-a4ab-658e347e0622 9e75cc04-e14e-4787-bd43-db34e3c76ff3 4cba8acc-2fef-47ce-a8a3-c069bf1dbb73 c0cf3be0-e1a8-4e03-b59f-cace55618a4a 61ea748c-02a0-4f24-8fac-2ac5778ffc95 cc395eb4-9c29-4a61-a9a3-5ebbac8098f2 5c85b09f-e4c4-4cbf-813f-6c7328164c59 1ad8d551-786d-4812-8839-ea5cede76a18 cf38df8f-4ffa-4b66-9f2e-4d33e8cf7fed 6ef15582-2372-4e70-ac81-30648c1dd5db 7e2060b8-e139-4f6f-b6dc-1ec0ee835a73 43ca4d27-58af-4907-a7ca-b3ebf894bb75 645844e1-852d-4c08-a298-f54fa37f579d 51e29b00-d460-41da-ada1-d5c45e0bc750 c2e6088d-3122-40b5-b06e-92676a73c4af 1567921d-a79f-4c21-9230-b923966da2a1</tstamps>
+      <tstamps>2416e236-8130-4ce3-a4ab-658e347e0622 9e75cc04-e14e-4787-bd43-db34e3c76ff3 4cba8acc-2fef-47ce-a8a3-c069bf1dbb73 c0cf3be0-e1a8-4e03-b59f-cace55618a4a 61ea748c-02a0-4f24-8fac-2ac5778ffc95 cc395eb4-9c29-4a61-a9a3-5ebbac8098f2 1ad8d551-786d-4812-8839-ea5cede76a18 cf38df8f-4ffa-4b66-9f2e-4d33e8cf7fed 5c85b09f-e4c4-4cbf-813f-6c7328164c59 6ef15582-2372-4e70-ac81-30648c1dd5db 7e2060b8-e139-4f6f-b6dc-1ec0ee835a73 43ca4d27-58af-4907-a7ca-b3ebf894bb75 645844e1-852d-4c08-a298-f54fa37f579d 51e29b00-d460-41da-ada1-d5c45e0bc750 c2e6088d-3122-40b5-b06e-92676a73c4af 1567921d-a79f-4c21-9230-b923966da2a1</tstamps>
     </comp>
     <comp ref="C?">
       <value>EMI_Filter_C</value>
@@ -1265,7 +1265,7 @@
       <node ref="L?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R?" pin="1" pintype="passive"/>
       <node ref="R?" pin="2" pintype="passive"/>
-      <node ref="U?" pin="1" pinfunction="VOUT" pintype="passive"/>
+      <node ref="U?" pin="1" pinfunction="VIN" pintype="bidirectional"/>
       <node ref="U?" pin="10" pinfunction="VDD" pintype="input"/>
       <node ref="U?" pin="17" pinfunction="VCC" pintype="power_in"/>
       <node ref="U?" pin="2" pinfunction="VIN" pintype="bidirectional"/>
@@ -1469,42 +1469,42 @@
       <node ref="BT?" pin="2" pinfunction="-" pintype="passive"/>
       <node ref="C?" pin="1" pintype="passive"/>
       <node ref="C?" pin="2" pintype="passive"/>
-      <node ref="D?" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D?" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D?" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="IC?" pin="20" pinfunction="CAPSEL" pintype="passive"/>
       <node ref="IC?" pin="25" pinfunction="GND" pintype="passive"/>
       <node ref="IC?" pin="3" pinfunction="VSS_1" pintype="passive"/>
-      <node ref="IC?" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC?" pin="4" pinfunction="~{CHGEN}" pintype="passive"/>
       <node ref="IC?" pin="5" pinfunction="~{BSTEN}" pintype="passive"/>
       <node ref="IC?" pin="7" pinfunction="EP" pintype="passive"/>
-      <node ref="J?" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J?" pin="1" pintype="input"/>
       <node ref="J?" pin="12" pinfunction="SHELL1" pintype="input"/>
       <node ref="J?" pin="2" pintype="input"/>
       <node ref="J?" pin="3" pinfunction="VSS" pintype="input"/>
       <node ref="J?" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J?" pin="5" pintype="input"/>
-      <node ref="J?" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J?" pin="6" pintype="input"/>
       <node ref="J?" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="Q?" pin="S" pinfunction="S" pintype="passive"/>
       <node ref="R?" pin="1" pintype="passive"/>
       <node ref="R?" pin="2" pintype="passive"/>
       <node ref="TH?" pin="2" pintype="passive"/>
       <node ref="U?" pin="10" pinfunction="VSS" pintype="unspecified"/>
-      <node ref="U?" pin="11" pinfunction="FSYNC" pintype="input"/>
+      <node ref="U?" pin="11" pinfunction="GND" pintype="power_in"/>
       <node ref="U?" pin="14" pinfunction="B6" pintype="bidirectional"/>
       <node ref="U?" pin="16" pinfunction="B4" pintype="bidirectional"/>
       <node ref="U?" pin="17" pinfunction="PGND" pintype="unspecified"/>
       <node ref="U?" pin="18" pinfunction="GND" pintype="power_in"/>
-      <node ref="U?" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U?" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U?" pin="20" pinfunction="GND" pintype="passive"/>
       <node ref="U?" pin="21" pinfunction="pgnd" pintype="unspecified"/>
       <node ref="U?" pin="28" pinfunction="GND" pintype="power_in"/>
-      <node ref="U?" pin="3" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="U?" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="U?" pin="39" pinfunction="GND" pintype="power_in"/>
       <node ref="U?" pin="4" pinfunction="GND" pintype="power_in"/>
-      <node ref="U?" pin="5" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="U?" pin="5" pinfunction="GND" pintype="input"/>
       <node ref="U?" pin="6" pinfunction="GND" pintype="power_in"/>
-      <node ref="U?" pin="7" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U?" pin="7" pinfunction="A6" pintype="bidirectional"/>
       <node ref="U?" pin="8" pinfunction="VSS" pintype="unspecified"/>
       <node ref="U?" pin="9" pintype="bidirectional"/>
     </net>
