@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/DATALOGGER02.kicad_sch</source>
-    <date>Mon Sep 11 01:09:24 2023</date>
+    <date>Fri Sep 15 09:34:21 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1265,7 +1265,7 @@
       <node ref="L?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R?" pin="1" pintype="passive"/>
       <node ref="R?" pin="2" pintype="passive"/>
-      <node ref="U?" pin="1" pinfunction="VIN" pintype="bidirectional"/>
+      <node ref="U?" pin="1" pinfunction="VOUT" pintype="passive"/>
       <node ref="U?" pin="10" pinfunction="VDD" pintype="input"/>
       <node ref="U?" pin="17" pinfunction="VCC" pintype="power_in"/>
       <node ref="U?" pin="2" pinfunction="VIN" pintype="bidirectional"/>
@@ -1495,16 +1495,16 @@
       <node ref="U?" pin="16" pinfunction="B4" pintype="bidirectional"/>
       <node ref="U?" pin="17" pinfunction="PGND" pintype="unspecified"/>
       <node ref="U?" pin="18" pinfunction="GND" pintype="power_in"/>
-      <node ref="U?" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U?" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U?" pin="20" pinfunction="GND" pintype="passive"/>
       <node ref="U?" pin="21" pinfunction="pgnd" pintype="unspecified"/>
       <node ref="U?" pin="28" pinfunction="GND" pintype="power_in"/>
-      <node ref="U?" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U?" pin="3" pinfunction="A2" pintype="input"/>
       <node ref="U?" pin="39" pinfunction="GND" pintype="power_in"/>
       <node ref="U?" pin="4" pinfunction="GND" pintype="power_in"/>
-      <node ref="U?" pin="5" pinfunction="GND" pintype="input"/>
+      <node ref="U?" pin="5" pinfunction="GND" pintype="bidirectional"/>
       <node ref="U?" pin="6" pinfunction="GND" pintype="power_in"/>
-      <node ref="U?" pin="7" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="U?" pin="7" pinfunction="GND" pintype="unspecified"/>
       <node ref="U?" pin="8" pinfunction="VSS" pintype="unspecified"/>
       <node ref="U?" pin="9" pintype="bidirectional"/>
     </net>
