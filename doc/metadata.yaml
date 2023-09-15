@@ -11,14 +11,14 @@ image: doc/gen/img/DATALOGGER02A-top.png
 images:
 - doc/gen/img/DATALOGGER02-bottom.png
 - doc/gen/img/DATALOGGER02-top.png
-- doc/gen/DATALOGGER02-Power_management.svg
+- doc/gen/DATALOGGER02-Microcontroller.svg
 - doc/gen/DATALOGGER02-schematic.svg
+- doc/gen/DATALOGGER02-Peripherals.svg
 - doc/gen/DATALOGGER02-Connectors.svg
 - doc/gen/DATALOGGER02-battery.svg
-- doc/gen/DATALOGGER02-Microcontroller.svg
-- doc/gen/DATALOGGER02-Peripherals.svg
-- doc/gen/img/DATALOGGER02-top.svg
+- doc/gen/DATALOGGER02-Power_management.svg
 - doc/gen/img/DATALOGGER02-bottom.svg
+- doc/gen/img/DATALOGGER02-top.svg
 - hw/cam_profi/assembly/DATALOGGER02-assembly_page_02.svg
 - hw/cam_profi/assembly/DATALOGGER02-assembly_page_01.svg
 issues: 0
@@ -34,4 +34,4 @@ tags:
 - mlab-kicad
 - pcb
 title: DATALOGGER02
-updated: '2023-09-11T01:10:36.155954+00:00'
+updated: '2023-09-15T09:32:41.487822+00:00'
