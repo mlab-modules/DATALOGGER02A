@@ -23,9 +23,9 @@ images:
 - hw/cam_profi/assembly/DATALOGGER02-assembly_page_01.svg
 issues: 0
 mark: 50
-status: 1
 mod_ibom: hw/cam_profi/DATALOGGER02-ibom.html
 mod_scheme: doc/gen/DATALOGGER02-schematic.pdf
+status: 1
 tags:
 - mlab
 - mlab-module
@@ -35,4 +35,4 @@ tags:
 - mlab-kicad
 - pcb
 title: DATALOGGER02
-updated: '2023-09-15T09:35:21.154411+00:00'
+updated: '2023-09-15T09:46:47.788220+00:00'
