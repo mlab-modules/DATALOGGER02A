@@ -4,6 +4,7 @@ github_branches:
 - 02A/update_actions
 - DATALOGGER02A
 - kaklik
+github_description: 'Arduino based data logger with LoRa IoT interface.  '
 github_repo: DATALOGGER02
 github_url: https://github.com/mlab-modules/DATALOGGER02
 homepage: false
@@ -35,4 +36,4 @@ tags:
 - mlab-kicad
 - pcb
 title: DATALOGGER02
-updated: '2023-09-17T07:05:43.212926+00:00'
+updated: '2023-09-17T11:34:46.006895+00:00'
