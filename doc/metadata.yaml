@@ -1,4 +1,4 @@
-description: 'Arduino-based data logger with LoRa IoT interface.  '
+description: 'Arduino based data logger with LoRa IoT interface.  '
 github_branch: DATALOGGER02A
 github_branches:
 - 02A/update_actions
@@ -35,4 +35,4 @@ tags:
 - mlab-kicad
 - pcb
 title: DATALOGGER02
-updated: '2023-09-16T16:03:44.501064+00:00'
+updated: '2023-09-17T07:03:27.000346+00:00'
