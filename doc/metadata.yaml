@@ -1,4 +1,4 @@
-description: 'Arduino based data logger with LoRa IoT interface.  '
+description: 'Arduino-based data logger with LoRa IoT interface.  '
 github_branch: DATALOGGER02A
 github_branches:
 - 02A/update_actions
