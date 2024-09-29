@@ -1,108 +1,211 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid d5fa3405-b56f-43e6-a8bd-3ff789d79996)
-
-  (paper "A4")
-
-  (title_block
-    (title "DATALOGGER01A")
-    (date "2022-08-14")
-    (company "Mlab www.mlab.cz")
-    (comment 2 "Universal battery powered SDcard \\ndatalogger. ")
-    (comment 3 "jacho <jacho@mlab.cz>")
-    (comment 4 "GPL 3.0")
-  )
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 38.1 73.66) (size 38.1 38.1) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2cb60f7b-1af1-45bb-a380-98cd5f4fdeca)
-    (property "Sheetname" "Power_management" (at 38.1 72.9484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Power_management.kicad_sch" (at 38.1 112.3446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "DATALOGGER02"
-        (path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 190.5 73.66) (size 38.1 38.1) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 57abb78d-4ec7-40f9-bbe8-c79df3c568d9)
-    (property "Sheetname" "Connectors" (at 190.5 72.9484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Connectors.kicad_sch" (at 190.5 112.3446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "DATALOGGER02"
-        (path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 88.9 73.66) (size 38.1 38.1) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 7c71719b-9529-474d-a282-d76ba461a2b8)
-    (property "Sheetname" "Microcontroller" (at 88.9 72.9484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Microcontroller.kicad_sch" (at 88.9 112.3446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "DATALOGGER02"
-        (path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 139.7 73.66) (size 38.1 38.1) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 8c16a5bf-8019-4e77-9247-0011396b8bad)
-    (property "Sheetname" "Peripherals" (at 139.7 72.9484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Peripherals.kicad_sch" (at 139.7 112.3446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "DATALOGGER02"
-        (path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at -90.17 16.51) (size 59.69 49.53) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid df8e542d-4a80-4d5b-8f9c-c0d69db7158b)
-    (property "Sheetname" "battery" (at -90.17 15.7984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "battery.kicad_sch" (at -90.17 66.6246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "DATALOGGER02"
-        (path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996" (page "2"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d5fa3405-b56f-43e6-a8bd-3ff789d79996")
+	(paper "A4")
+	(title_block
+		(title "DATALOGGER01A")
+		(date "2022-08-14")
+		(company "Mlab www.mlab.cz")
+		(comment 2 "Universal battery powered SDcard \\ndatalogger. ")
+		(comment 3 "jacho <jacho@mlab.cz>")
+		(comment 4 "GPL 3.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 38.1 73.66)
+		(size 38.1 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2cb60f7b-1af1-45bb-a380-98cd5f4fdeca")
+		(property "Sheetname" "Power_management"
+			(at 38.1 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_management.kicad_sch"
+			(at 38.1 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DATALOGGER02"
+				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 35.56)
+		(size 39.37 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "519f87ce-2fca-4f1a-a87e-7f9aea4b3597")
+		(property "Sheetname" "Telemetry"
+			(at 189.23 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Telemetry.kicad_sch"
+			(at 189.23 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DATALOGGER02"
+				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 73.66)
+		(size 38.1 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57abb78d-4ec7-40f9-bbe8-c79df3c568d9")
+		(property "Sheetname" "Connectors"
+			(at 190.5 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 190.5 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DATALOGGER02"
+				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 73.66)
+		(size 38.1 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c71719b-9529-474d-a282-d76ba461a2b8")
+		(property "Sheetname" "Microcontroller"
+			(at 88.9 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 88.9 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DATALOGGER02"
+				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 73.66)
+		(size 38.1 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c16a5bf-8019-4e77-9247-0011396b8bad")
+		(property "Sheetname" "Peripherals"
+			(at 139.7 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 139.7 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DATALOGGER02"
+				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
