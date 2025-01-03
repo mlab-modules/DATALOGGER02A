@@ -1921,16 +1921,16 @@
 		(uuid "2389b184-ce79-4a8e-bf8f-98252d715663")
 	)
 	(junction
-		(at 173.99 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e55c6d4-23cf-4039-83aa-46340bf6f8a7")
-	)
-	(junction
 		(at 185.42 113.03)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "68bc9ee2-d6ee-47d4-bb93-b958e6fc2cff")
+	)
+	(junction
+		(at 173.99 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9970bb6-099f-4f45-b833-a7146e1a54a5")
 	)
 	(no_connect
 		(at 86.36 82.55)
@@ -1956,7 +1956,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "05805b95-78c5-4d79-933d-ba081855d138")
 	)
@@ -1966,7 +1966,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "06189ac5-904b-4587-a6c5-6afa232b249c")
 	)
@@ -2066,7 +2066,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "36067a0d-d10f-4a03-8d2d-0101edbf1572")
 	)
@@ -2106,7 +2106,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "53b203da-5959-4f83-90e2-6faab40072dd")
 	)
@@ -2119,6 +2119,16 @@
 			(type default)
 		)
 		(uuid "56f696f8-0933-4068-b7b5-bedcd9931442")
+	)
+	(wire
+		(pts
+			(xy 175.26 66.04) (xy 173.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d67bbbd-1214-4344-aff4-0058a6aba0ca")
 	)
 	(wire
 		(pts
@@ -2156,7 +2166,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "746815b9-a055-4076-bf36-9645973e17a0")
 	)
@@ -2166,7 +2176,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "79cf61e2-c796-4d9f-961c-07f9b3fcbdd1")
 	)
@@ -2219,16 +2229,6 @@
 			(type default)
 		)
 		(uuid "9c24c136-eb2c-4fc9-9250-bccad1128d99")
-	)
-	(wire
-		(pts
-			(xy 173.99 66.04) (xy 173.99 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3e3dbfb-b5bc-40d0-9c66-6659dfbea1a8")
 	)
 	(wire
 		(pts
@@ -2292,6 +2292,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 66.04) (xy 173.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf805b5a-b03d-411d-9474-9c38233425e1")
+	)
+	(wire
+		(pts
 			(xy 81.28 120.65) (xy 88.9 120.65)
 		)
 		(stroke
@@ -2306,7 +2316,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "c33127ec-1f45-4b99-a638-b76d11471979")
 	)
@@ -2319,16 +2329,6 @@
 			(type default)
 		)
 		(uuid "c55cefa2-19e2-4589-9f91-e391250762e8")
-	)
-	(wire
-		(pts
-			(xy 175.26 66.04) (xy 173.99 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d94bb440-97d3-405f-ac7e-f49078a50bed")
 	)
 	(wire
 		(pts
@@ -2406,7 +2406,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "ff61f886-fb86-4e31-8190-f7e34f4c4cde")
 	)
@@ -2959,7 +2959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1567921d-a79f-4c21-9230-b923966da2a1")
-		(property "Reference" "J?"
+		(property "Reference" "J23"
 			(at 95.25 114.2999 0)
 			(effects
 				(font
@@ -3026,9 +3026,9 @@
 			(uuid "f1730c3f-b55c-4264-92f0-43882d93c162")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -3043,7 +3043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ad8d551-786d-4812-8839-ea5cede76a18")
-		(property "Reference" "J?"
+		(property "Reference" "J30"
 			(at 186.69 66.04 0)
 			(effects
 				(font
@@ -3093,9 +3093,9 @@
 			(uuid "77715854-ae5f-413f-a8dc-a25a4da1e9a4")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J30")
 					(unit 1)
 				)
 			)
@@ -3110,7 +3110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b7af775-d231-4fa7-bde1-4cca42c90aa9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0133"
 			(at 124.46 76.2 0)
 			(effects
 				(font
@@ -3159,9 +3159,9 @@
 			(uuid "32d701b2-dd4a-44fc-a955-e7231bec2665")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "#PWR?")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -3176,7 +3176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2416e236-8130-4ce3-a4ab-658e347e0622")
-		(property "Reference" "J?"
+		(property "Reference" "J33"
 			(at 208.28 67.31 0)
 			(effects
 				(font
@@ -3226,9 +3226,9 @@
 			(uuid "30a68788-d3f4-4660-9886-7311e4a67b3c")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J33")
 					(unit 1)
 				)
 			)
@@ -3243,7 +3243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2eb5edf3-479a-4461-aba6-af1a6dbdaf3d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0129"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -3292,9 +3292,9 @@
 			(uuid "78666011-f8f0-47ce-bac1-0326df286ace")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "#PWR?")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -3309,7 +3309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43ca4d27-58af-4907-a7ca-b3ebf894bb75")
-		(property "Reference" "J?"
+		(property "Reference" "J26"
 			(at 170.18 105.41 0)
 			(effects
 				(font
@@ -3359,9 +3359,9 @@
 			(uuid "1728abda-cf7d-4aeb-a2b7-6e03e980bff8")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -3376,7 +3376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cba8acc-2fef-47ce-a8a3-c069bf1dbb73")
-		(property "Reference" "J?"
+		(property "Reference" "J37"
 			(at 208.28 77.47 0)
 			(effects
 				(font
@@ -3426,9 +3426,9 @@
 			(uuid "1a8f21d7-26be-438e-a8f4-8f7a37d2c58a")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J37")
 					(unit 1)
 				)
 			)
@@ -3443,7 +3443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51e29b00-d460-41da-ada1-d5c45e0bc750")
-		(property "Reference" "J?"
+		(property "Reference" "J25"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -3493,9 +3493,9 @@
 			(uuid "eeab3136-e962-4521-9315-d49356ecc962")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -3510,7 +3510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "589136ee-1c8a-45b5-ae98-f41ff594bfa2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0139"
 			(at 234.95 72.39 0)
 			(effects
 				(font
@@ -3558,9 +3558,9 @@
 			(uuid "825de4db-3ec9-4945-971b-71b4a044e238")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "#PWR?")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -3576,7 +3576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c85b09f-e4c4-4cbf-813f-6c7328164c59")
-		(property "Reference" "J?"
+		(property "Reference" "J24"
 			(at 138.43 76.1999 0)
 			(effects
 				(font
@@ -3634,9 +3634,9 @@
 			(uuid "c1c30a61-86e1-4901-98bc-ca66f2e044c0")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -3651,7 +3651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61ea748c-02a0-4f24-8fac-2ac5778ffc95")
-		(property "Reference" "J?"
+		(property "Reference" "J35"
 			(at 208.28 72.39 0)
 			(effects
 				(font
@@ -3701,9 +3701,9 @@
 			(uuid "b6ab85e3-87a5-4bbf-9911-aaead62a751a")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J35")
 					(unit 1)
 				)
 			)
@@ -3718,7 +3718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "645844e1-852d-4c08-a298-f54fa37f579d")
-		(property "Reference" "J?"
+		(property "Reference" "J27"
 			(at 170.18 107.95 0)
 			(effects
 				(font
@@ -3768,9 +3768,9 @@
 			(uuid "4321a8b8-e269-4b78-bccc-4fcd5cc1f3ad")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -3785,7 +3785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ef15582-2372-4e70-ac81-30648c1dd5db")
-		(property "Reference" "J?"
+		(property "Reference" "J32"
 			(at 186.69 76.2 0)
 			(effects
 				(font
@@ -3835,9 +3835,9 @@
 			(uuid "5c9ae584-541b-4a5b-be5f-e95df14dd350")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J32")
 					(unit 1)
 				)
 			)
@@ -3852,7 +3852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e2060b8-e139-4f6f-b6dc-1ec0ee835a73")
-		(property "Reference" "J?"
+		(property "Reference" "J31"
 			(at 184.8612 70.993 0)
 			(effects
 				(font
@@ -3916,9 +3916,9 @@
 			(uuid "bddb2dc4-d1d3-4452-b63b-7f456d862a66")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J31")
 					(unit 1)
 				)
 			)
@@ -3935,7 +3935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83b92ebe-239e-44f3-a454-97b507644079")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0130"
 			(at 72.39 87.63 0)
 			(effects
 				(font
@@ -3984,9 +3984,9 @@
 			(uuid "e35c93f0-f7c0-4f0b-ac7b-18abbe635ea8")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "#PWR?")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -4001,7 +4001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "902f1538-c301-4242-8da3-931174b41606")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0138"
 			(at 223.52 88.9 0)
 			(effects
 				(font
@@ -4049,9 +4049,9 @@
 			(uuid "e21c4844-6f0e-44dd-8f79-48f14427a8b3")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "#PWR?")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -4066,7 +4066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e75cc04-e14e-4787-bd43-db34e3c76ff3")
-		(property "Reference" "J?"
+		(property "Reference" "J29"
 			(at 170.18 113.03 0)
 			(effects
 				(font
@@ -4116,9 +4116,9 @@
 			(uuid "1f547fae-134c-4be7-9950-249f0bdcd042")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -4135,7 +4135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adb39d1f-4a39-4936-b998-d81eae066348")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0135"
 			(at 173.99 85.09 0)
 			(effects
 				(font
@@ -4183,9 +4183,9 @@
 			(uuid "6426ce7a-72e1-4744-a667-09a98f5d67ad")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "#PWR?")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -4202,7 +4202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdb52c2a-63c2-4f39-97e0-5be7b1ed44c3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0134"
 			(at 118.11 81.28 0)
 			(effects
 				(font
@@ -4251,9 +4251,9 @@
 			(uuid "340afac1-5a45-4f8b-bbfd-f3d5bcc2e1ea")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "#PWR?")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -4268,7 +4268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0cf3be0-e1a8-4e03-b59f-cace55618a4a")
-		(property "Reference" "J?"
+		(property "Reference" "J36"
 			(at 208.28 74.93 0)
 			(effects
 				(font
@@ -4318,9 +4318,9 @@
 			(uuid "705d08c4-26f1-41e3-ae09-7e8bb6f8c02b")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J36")
 					(unit 1)
 				)
 			)
@@ -4335,7 +4335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2e6088d-3122-40b5-b06e-92676a73c4af")
-		(property "Reference" "J?"
+		(property "Reference" "J28"
 			(at 170.18 110.49 0)
 			(effects
 				(font
@@ -4385,9 +4385,9 @@
 			(uuid "b9526528-3766-4e63-95f0-5cb80b2e8a04")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -4402,7 +4402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c62a99b3-b439-419c-9d96-e48867264d88")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0136"
 			(at 185.42 124.46 0)
 			(effects
 				(font
@@ -4450,9 +4450,9 @@
 			(uuid "12ada965-6897-4188-9980-342d7d98e187")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "#PWR?")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -4467,7 +4467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc395eb4-9c29-4a61-a9a3-5ebbac8098f2")
-		(property "Reference" "J?"
+		(property "Reference" "J34"
 			(at 208.28 69.85 0)
 			(effects
 				(font
@@ -4517,9 +4517,9 @@
 			(uuid "b2ad95a2-3d7c-4057-b614-5d803de4214a")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J34")
 					(unit 1)
 				)
 			)
@@ -4535,7 +4535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf38df8f-4ffa-4b66-9f2e-4d33e8cf7fed")
-		(property "Reference" "J?"
+		(property "Reference" "J22"
 			(at 92.71 80.0099 0)
 			(effects
 				(font
@@ -4599,9 +4599,9 @@
 			(uuid "e6026528-dc68-4652-afd6-c553d65fa7ec")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J?")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -4616,7 +4616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df13b05c-2f6a-4d51-9936-02451ad5305c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0131"
 			(at 81.28 110.49 0)
 			(effects
 				(font
@@ -4665,9 +4665,9 @@
 			(uuid "75970ae8-abff-49d4-b89e-99be45830608")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "#PWR?")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -4684,7 +4684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f15f99e8-4164-4089-ba87-25588aedaba0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0132"
 			(at 74.93 123.19 0)
 			(effects
 				(font
@@ -4733,9 +4733,9 @@
 			(uuid "df9368ab-ad87-48b2-b9fd-76452d510b49")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "#PWR?")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -4750,7 +4750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7d029fb-87d0-4928-a5b9-f1c8cf12048d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0137"
 			(at 191.77 107.95 0)
 			(effects
 				(font
@@ -4798,9 +4798,9 @@
 			(uuid "2ebde2a4-9565-4150-95f2-5b6cc5023638")
 		)
 		(instances
-			(project "DATALOGGER02"
+			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "#PWR?")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
