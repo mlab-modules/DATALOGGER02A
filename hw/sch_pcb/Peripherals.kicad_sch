@@ -7818,6 +7818,17 @@
 		)
 		(uuid "494984a8-f3db-49bf-be9e-e984c23df523")
 	)
+	(text "je potreba urcit pri jakem\nnapeti se spusti power fail\nsafe a podle toho udelat\nnapetoivy delic"
+		(exclude_from_sim no)
+		(at 152.146 119.888 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left bottom)
+		)
+		(uuid "530f8944-71ac-45f7-bc6a-422927011f4a")
+	)
 	(text "INERTIAL MEASUREMENT UNIT"
 		(exclude_from_sim no)
 		(at 13.97 62.23 0)
@@ -11732,7 +11743,7 @@
 		(dnp no)
 		(uuid "50d78b0e-984a-4f33-bb17-bcb0c8452df2")
 		(property "Reference" "R47"
-			(at 196.85 135.89 90)
+			(at 198.12 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12388,7 +12399,7 @@
 		(dnp no)
 		(uuid "68165cc3-b340-4a18-afde-31bd2542add4")
 		(property "Reference" "R48"
-			(at 196.85 138.43 90)
+			(at 198.12 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13008,7 +13019,7 @@
 		(dnp no)
 		(uuid "79fa3d32-2f85-486c-96bf-9acdc2632c29")
 		(property "Reference" "R49"
-			(at 196.85 146.05 90)
+			(at 197.866 146.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16342,7 +16353,7 @@
 		(dnp no)
 		(uuid "f043d182-da41-4c38-8261-2a1d862ca86f")
 		(property "Reference" "R50"
-			(at 196.85 151.13 90)
+			(at 198.12 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)

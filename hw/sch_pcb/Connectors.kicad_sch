@@ -929,462 +929,6 @@
 				)
 			)
 		)
-		(symbol "DATALOGGER01A-rescue:HEADER_2x01_PARALLEL-MLAB_HEADER"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "HEADER_2x01_PARALLEL-MLAB_HEADER"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HEADER_2x01_PARALLEL-MLAB_HEADER_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -1.27 0)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 0) (xy 0.889 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "HEADER_2x01_PARALLEL-MLAB_HEADER_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 3.81) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "DATALOGGER01A-rescue:HEADER_2x03_PARALLEL-MLAB_HEADER"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "HEADER_2x03_PARALLEL-MLAB_HEADER"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HEADER_2x03_PARALLEL-MLAB_HEADER_0_1"
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -1.27 -2.54)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 0)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 2.54)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 -2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -2.54) (xy 0.889 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 0) (xy 0.889 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 2.54) (xy 0.889 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -2.54)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 2.54)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "HEADER_2x03_PARALLEL-MLAB_HEADER_1_1"
-				(pin input line
-					(at -6.35 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 2.54 0)
-					(length 3.81) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 3.81) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -2.54 0)
-					(length 3.81) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "GND_2"
 			(power)
 			(pin_names
@@ -1568,6 +1112,1136 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MLAB_HEADER:HEADER_2x05_PARALLEL"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "HEADER_2x05_PARALLEL"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "2x05 2.54 mm pitch header, 2 pins next to each other are connected"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "2x05, header, connector, pinheader"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HEADER_2x05_PARALLEL_0_1"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 -5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -5.08) (xy 0.889 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -2.54) (xy 0.889 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 0) (xy 0.889 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 2.54) (xy 0.889 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 5.08) (xy 0.889 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HEADER_2x05_PARALLEL_1_1"
+				(pin input line
+					(at -6.35 5.08 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -5.08 0)
+					(length 3.81) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 5.08 0)
+					(length 3.81) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 3.81) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 3.81) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -5.08 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MLAB_HEADER:HEADER_2x07_PARALLEL"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "HEADER_2x07_PARALLEL"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "2x07 2.54 mm pitch header, 2 pins next to each other are connected"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "2x07, header, connector, pinheader"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HEADER_2x07_PARALLEL_0_1"
+				(rectangle
+					(start -2.54 8.89)
+					(end 2.54 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 -7.62)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 7.62)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 -7.62) (xy -2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 7.62) (xy -2.54 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -7.62) (xy 0.889 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -5.08) (xy 0.889 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -2.54) (xy 0.889 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 0) (xy 0.889 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 2.54) (xy 0.889 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 5.08) (xy 0.889 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 7.62) (xy 0.889 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -7.62)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 7.62)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HEADER_2x07_PARALLEL_1_1"
+				(pin input line
+					(at -6.35 7.62 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 3.81) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -5.08 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -5.08 0)
+					(length 3.81) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -7.62 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -7.62 0)
+					(length 3.81) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 7.62 0)
+					(length 3.81) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 5.08 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 5.08 0)
+					(length 3.81) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 3.81) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1921,16 +2595,22 @@
 		(uuid "2389b184-ce79-4a8e-bf8f-98252d715663")
 	)
 	(junction
+		(at 189.23 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c086813-230b-40f2-bba6-05a0317a7a0e")
+	)
+	(junction
 		(at 185.42 113.03)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "68bc9ee2-d6ee-47d4-bb93-b958e6fc2cff")
 	)
 	(junction
-		(at 173.99 76.2)
+		(at 179.07 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e9970bb6-099f-4f45-b833-a7146e1a54a5")
+		(uuid "8b8f3e1e-7cc3-4b5c-8ec8-0c7b6bd2bb9e")
 	)
 	(no_connect
 		(at 86.36 82.55)
@@ -1992,16 +2672,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 71.12) (xy 175.26 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e63ae80-61f8-4acc-b0b4-9c1f05aa48ef")
-	)
-	(wire
-		(pts
 			(xy 223.52 77.47) (xy 223.52 82.55)
 		)
 		(stroke
@@ -2009,6 +2679,26 @@
 			(type solid)
 		)
 		(uuid "12d497aa-19bb-461c-83e4-f1bcc1e70c17")
+	)
+	(wire
+		(pts
+			(xy 179.07 73.66) (xy 179.07 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133dbee0-f5fb-4705-9a08-2665366b0889")
+	)
+	(wire
+		(pts
+			(xy 179.07 71.12) (xy 179.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136a43a5-39ce-4e39-a2f2-efe8826c26cd")
 	)
 	(wire
 		(pts
@@ -2039,6 +2729,16 @@
 			(type default)
 		)
 		(uuid "1bef43eb-b742-41f5-8338-58bbbf72a88a")
+	)
+	(wire
+		(pts
+			(xy 187.96 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3eb9dc-1360-4bf9-b755-4bedcc5c3ffa")
 	)
 	(wire
 		(pts
@@ -2090,16 +2790,6 @@
 		)
 		(uuid "491c4e55-8235-44a3-9010-85d4f9260e2f")
 	)
-	(wire
-		(pts
-			(xy 171.45 73.66) (xy 175.26 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c8af26e-58d1-4888-ac2b-7943820232e2")
-	)
 	(polyline
 		(pts
 			(xy 67.31 55.88) (xy 160.02 55.88)
@@ -2122,16 +2812,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 66.04) (xy 173.99 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d67bbbd-1214-4344-aff4-0058a6aba0ca")
-	)
-	(wire
-		(pts
 			(xy 81.28 123.19) (xy 88.9 123.19)
 		)
 		(stroke
@@ -2139,6 +2819,16 @@
 			(type default)
 		)
 		(uuid "5ddb26b4-839b-464b-863c-90bc22f3f363")
+	)
+	(wire
+		(pts
+			(xy 189.23 68.58) (xy 189.23 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf7483a-6b7f-46a1-a66d-8807b329e799")
 	)
 	(wire
 		(pts
@@ -2159,6 +2849,16 @@
 			(type default)
 		)
 		(uuid "6ec424ac-fbbe-4d50-a927-6d293c2609ab")
+	)
+	(wire
+		(pts
+			(xy 179.07 73.66) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74557438-24a2-429b-8fe6-425d3a742bb9")
 	)
 	(polyline
 		(pts
@@ -2212,13 +2912,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 76.2) (xy 173.99 78.74)
+			(xy 189.23 83.82) (xy 189.23 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97aebcd1-f45a-4c0a-beed-463c68426b03")
+		(uuid "951eb9a5-ab0b-4ed6-9475-1dff6aa94798")
 	)
 	(wire
 		(pts
@@ -2252,6 +2952,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 78.74) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acadd080-eaed-4f14-9593-7bff1a206da0")
+	)
+	(wire
+		(pts
 			(xy 81.28 115.57) (xy 88.9 115.57)
 		)
 		(stroke
@@ -2272,16 +2982,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 68.58) (xy 175.26 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b607f2ed-b2d8-4564-9bdc-748749fa309c")
-	)
-	(wire
-		(pts
 			(xy 219.71 67.31) (xy 223.52 67.31)
 		)
 		(stroke
@@ -2289,16 +2989,6 @@
 			(type solid)
 		)
 		(uuid "bbda64b1-1571-4802-afa5-66530b882d96")
-	)
-	(wire
-		(pts
-			(xy 173.99 66.04) (xy 173.99 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf805b5a-b03d-411d-9474-9c38233425e1")
 	)
 	(wire
 		(pts
@@ -2319,16 +3009,6 @@
 			(type dash)
 		)
 		(uuid "c33127ec-1f45-4b99-a638-b76d11471979")
-	)
-	(wire
-		(pts
-			(xy 173.99 76.2) (xy 175.26 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c55cefa2-19e2-4589-9f91-e391250762e8")
 	)
 	(wire
 		(pts
@@ -2362,6 +3042,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 68.58) (xy 189.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8de7f74-bcaf-4be9-a6ae-f9a7eff6aaa7")
+	)
+	(wire
+		(pts
 			(xy 219.71 77.47) (xy 223.52 77.47)
 		)
 		(stroke
@@ -2382,6 +3072,26 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 71.12) (xy 190.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed89f084-5750-406e-936a-0454b8149b14")
+	)
+	(wire
+		(pts
+			(xy 189.23 83.82) (xy 190.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f576c831-a5ff-4221-857b-fa0b83010938")
+	)
+	(wire
+		(pts
 			(xy 81.28 113.03) (xy 88.9 113.03)
 		)
 		(stroke
@@ -2389,6 +3099,16 @@
 			(type default)
 		)
 		(uuid "fa2ffbeb-27e2-49f8-81e9-0d04641f94ec")
+	)
+	(wire
+		(pts
+			(xy 187.96 81.28) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae8d2ad-5dba-473c-b080-b34b984a95ec")
 	)
 	(wire
 		(pts
@@ -2445,7 +3165,7 @@
 	)
 	(text "ANALOG CONN"
 		(exclude_from_sim no)
-		(at 167.64 64.77 0)
+		(at 169.672 62.23 0)
 		(effects
 			(font
 				(size 3 3)
@@ -2643,7 +3363,7 @@
 	)
 	(global_label "PA1"
 		(shape input)
-		(at 171.45 71.12 180)
+		(at 187.96 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2653,7 +3373,7 @@
 		)
 		(uuid "29db37db-5b70-48c5-a9ec-4e72fa57517e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.6186 71.045 0)
+			(at 182.1286 76.125 0)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -2775,7 +3495,7 @@
 	)
 	(global_label "PA2"
 		(shape input)
-		(at 171.45 73.66 180)
+		(at 187.96 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2785,7 +3505,7 @@
 		)
 		(uuid "81b399ca-3189-42e9-b839-c270ee5c3678")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.6186 73.585 0)
+			(at 182.1286 81.205 0)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -2797,7 +3517,7 @@
 	)
 	(global_label "PA0"
 		(shape input)
-		(at 171.45 68.58 180)
+		(at 187.96 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2807,7 +3527,7 @@
 		)
 		(uuid "a8ac7a16-6b6e-4bf5-86b9-e6803b4bc17a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.6186 68.505 0)
+			(at 182.1286 71.045 0)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -2950,6 +3670,99 @@
 		)
 	)
 	(symbol
+		(lib_id "MLAB_HEADER:HEADER_2x05_PARALLEL")
+		(at 175.26 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "156296ef-4d0f-4c44-bfef-90ab3199b75f")
+		(property "Reference" "J1"
+			(at 171.45 107.9499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HEADER_2x05_PARALLEL"
+			(at 171.45 109.2199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "2x05 2.54 mm pitch header, 2 pins next to each other are connected"
+			(at 175.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88b56be7-54a3-4a29-a7b9-207692e18033")
+		)
+		(pin "5"
+			(uuid "ac4f44ad-1e41-463e-90a4-e80dcca2686c")
+		)
+		(pin "4"
+			(uuid "9ca0fc45-89b2-4b67-9305-79469fe87923")
+		)
+		(pin "3"
+			(uuid "5aa0b5a4-db06-43b5-a397-ad4be5cf6212")
+		)
+		(pin "8"
+			(uuid "3c40a5ec-543b-40ee-a654-eeb23fa17fcc")
+		)
+		(pin "10"
+			(uuid "b4f4d81c-28b6-4fa5-8be6-fddccf988204")
+		)
+		(pin "9"
+			(uuid "fa6516b4-c62d-4c05-9875-2877292d0390")
+		)
+		(pin "1"
+			(uuid "c5eeebe1-939a-4529-b276-84656359743c")
+		)
+		(pin "7"
+			(uuid "467310fe-cea9-40a9-ad4d-d8f843b7426e")
+		)
+		(pin "6"
+			(uuid "36ba75cc-f843-4993-a26f-deaaa66c17e4")
+		)
+		(instances
+			(project "DATALOGGER02"
+				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x07_Female")
 		(at 93.98 115.57 0)
 		(unit 1)
@@ -3035,50 +3848,52 @@
 		)
 	)
 	(symbol
-		(lib_id "DATALOGGER01A-rescue:HEADER_2x01_PARALLEL-MLAB_HEADER")
-		(at 181.61 66.04 0)
+		(lib_id "MLAB_HEADER:HEADER_2x05_PARALLEL")
+		(at 213.36 72.39 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1ad8d551-786d-4812-8839-ea5cede76a18")
-		(property "Reference" "J30"
-			(at 186.69 66.04 0)
+		(uuid "17e1c594-8d75-4c62-a4da-fa2060a2210e")
+		(property "Reference" "J4"
+			(at 209.55 72.3899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "HEADER_2x01_PARALLEL"
-			(at 179.5526 69.3674 0)
+		(property "Value" "HEADER_2x05_PARALLEL"
+			(at 209.55 73.6599 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
-			(at 181.61 66.04 0)
+		(property "Footprint" ""
+			(at 213.36 67.31 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 66.04 0)
+			(at 213.36 67.31 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 181.61 66.04 0)
+		(property "Description" "2x05 2.54 mm pitch header, 2 pins next to each other are connected"
+			(at 213.36 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,16 +3901,40 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "5620e40d-8043-46bc-9ebb-d81594ac73d3")
-		)
 		(pin "2"
-			(uuid "77715854-ae5f-413f-a8dc-a25a4da1e9a4")
+			(uuid "57a35624-3a1f-4483-846a-7bc78668584a")
+		)
+		(pin "5"
+			(uuid "24ecc8ed-c7f0-497b-8a64-ec1a21b1d99b")
+		)
+		(pin "4"
+			(uuid "7ebc3b5d-3c57-4466-9212-51c7d85e65b4")
+		)
+		(pin "3"
+			(uuid "68b8ee1d-d6fb-4573-b301-428b7bbdd94d")
+		)
+		(pin "8"
+			(uuid "32f74c7b-e31d-482e-86b7-9479b04728a9")
+		)
+		(pin "10"
+			(uuid "a4196e25-eaa0-45f7-b450-620f0d3fccd7")
+		)
+		(pin "9"
+			(uuid "b672425e-c5a6-4c95-8303-ed4c3fe22fa7")
+		)
+		(pin "1"
+			(uuid "fbec58e3-7a6d-439d-8aee-44baf20c1e7c")
+		)
+		(pin "7"
+			(uuid "77839d11-ccf4-4489-8a26-b9f63071431b")
+		)
+		(pin "6"
+			(uuid "4c02aacb-369e-4ba3-9746-a0312d1c486a")
 		)
 		(instances
-			(project ""
+			(project "DATALOGGER02"
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J30")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3168,73 +4007,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DATALOGGER01A-rescue:HEADER_2x01_PARALLEL-MLAB_HEADER")
-		(at 213.36 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2416e236-8130-4ce3-a4ab-658e347e0622")
-		(property "Reference" "J33"
-			(at 208.28 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HEADER_2x01_PARALLEL"
-			(at 215.4174 63.9826 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
-			(at 213.36 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be4e20a4-022f-450d-a9e3-a61045deb249")
-		)
-		(pin "2"
-			(uuid "30a68788-d3f4-4660-9886-7311e4a67b3c")
-		)
-		(instances
-			(project ""
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 78.74 73.66 0)
 		(unit 1)
@@ -3295,207 +4067,6 @@
 			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
 					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DATALOGGER01A-rescue:HEADER_2x01_PARALLEL-MLAB_HEADER")
-		(at 175.26 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43ca4d27-58af-4907-a7ca-b3ebf894bb75")
-		(property "Reference" "J26"
-			(at 170.18 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HEADER_2x01_PARALLEL"
-			(at 177.3174 102.0826 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
-			(at 175.26 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0634f5c7-fbfe-474a-8b3a-8901fa3ded2b")
-		)
-		(pin "2"
-			(uuid "1728abda-cf7d-4aeb-a2b7-6e03e980bff8")
-		)
-		(instances
-			(project ""
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DATALOGGER01A-rescue:HEADER_2x01_PARALLEL-MLAB_HEADER")
-		(at 213.36 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cba8acc-2fef-47ce-a8a3-c069bf1dbb73")
-		(property "Reference" "J37"
-			(at 208.28 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HEADER_2x01_PARALLEL"
-			(at 215.4174 74.1426 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
-			(at 213.36 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3dc337c9-8cf9-430f-a50b-48aa3a24397a")
-		)
-		(pin "2"
-			(uuid "1a8f21d7-26be-438e-a8f4-8f7a37d2c58a")
-		)
-		(instances
-			(project ""
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DATALOGGER01A-rescue:HEADER_2x01_PARALLEL-MLAB_HEADER")
-		(at 175.26 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51e29b00-d460-41da-ada1-d5c45e0bc750")
-		(property "Reference" "J25"
-			(at 170.18 102.87 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HEADER_2x01_PARALLEL"
-			(at 177.3174 99.5426 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
-			(at 175.26 102.87 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 102.87 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7e455dc-254c-44f9-896a-1b5a63d7a360")
-		)
-		(pin "2"
-			(uuid "eeab3136-e962-4521-9315-d49356ecc962")
-		)
-		(instances
-			(project ""
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -3643,288 +4214,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DATALOGGER01A-rescue:HEADER_2x01_PARALLEL-MLAB_HEADER")
-		(at 213.36 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61ea748c-02a0-4f24-8fac-2ac5778ffc95")
-		(property "Reference" "J35"
-			(at 208.28 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HEADER_2x01_PARALLEL"
-			(at 215.4174 69.0626 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
-			(at 213.36 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2c6a27c-d99a-4239-92af-1019b9c8889e")
-		)
-		(pin "2"
-			(uuid "b6ab85e3-87a5-4bbf-9911-aaead62a751a")
-		)
-		(instances
-			(project ""
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DATALOGGER01A-rescue:HEADER_2x01_PARALLEL-MLAB_HEADER")
-		(at 175.26 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "645844e1-852d-4c08-a298-f54fa37f579d")
-		(property "Reference" "J27"
-			(at 170.18 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HEADER_2x01_PARALLEL"
-			(at 177.3174 104.6226 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
-			(at 175.26 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7762973f-9144-4660-a268-cc969e7c0938")
-		)
-		(pin "2"
-			(uuid "4321a8b8-e269-4b78-bccc-4fcd5cc1f3ad")
-		)
-		(instances
-			(project ""
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DATALOGGER01A-rescue:HEADER_2x01_PARALLEL-MLAB_HEADER")
-		(at 181.61 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ef15582-2372-4e70-ac81-30648c1dd5db")
-		(property "Reference" "J32"
-			(at 186.69 76.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HEADER_2x01_PARALLEL"
-			(at 179.5526 79.5274 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
-			(at 181.61 76.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 76.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33eec081-e350-4d79-b96d-a823ffbe0894")
-		)
-		(pin "2"
-			(uuid "5c9ae584-541b-4a5b-be5f-e95df14dd350")
-		)
-		(instances
-			(project ""
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DATALOGGER01A-rescue:HEADER_2x03_PARALLEL-MLAB_HEADER")
-		(at 181.61 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e2060b8-e139-4f6f-b6dc-1ec0ee835a73")
-		(property "Reference" "J31"
-			(at 184.8612 70.993 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HEADER_2x03_PARALLEL"
-			(at 184.8612 72.3392 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x03"
-			(at 181.61 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2f9cff3-2f10-43c2-84d6-d74965573b45")
-		)
-		(pin "2"
-			(uuid "bd3d1e02-e81f-403e-bda4-27f3c06e9c4f")
-		)
-		(pin "3"
-			(uuid "53fad204-ddb3-4af6-989b-b53b4f7eec24")
-		)
-		(pin "4"
-			(uuid "3c406c8c-9ce2-4b5b-909d-4b683bff4bb4")
-		)
-		(pin "5"
-			(uuid "1e907162-4fc5-4b86-b12f-441f5c5a9a3f")
-		)
-		(pin "6"
-			(uuid "bddb2dc4-d1d3-4452-b63b-7f456d862a66")
-		)
-		(instances
-			(project ""
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 78.74 87.63 270)
@@ -4058,50 +4347,52 @@
 		)
 	)
 	(symbol
-		(lib_id "DATALOGGER01A-rescue:HEADER_2x01_PARALLEL-MLAB_HEADER")
-		(at 175.26 113.03 180)
+		(lib_id "power:+5V")
+		(at 179.07 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9e75cc04-e14e-4787-bd43-db34e3c76ff3")
-		(property "Reference" "J29"
-			(at 170.18 113.03 0)
+		(uuid "a7e423fb-dcf0-450b-b1f7-fa46059b8364")
+		(property "Reference" "#PWR023"
+			(at 179.07 74.93 0)
 			(effects
 				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HEADER_2x01_PARALLEL"
-			(at 177.3174 109.7026 0)
-			(effects
-				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
-			(at 175.26 113.03 0)
+		(property "Value" "+5V"
+			(at 179.0701 67.31 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 113.03 0)
+			(at 179.07 71.12 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 175.26 113.03 0)
+			(at 179.07 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4110,15 +4401,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb25c1e0-2058-46fd-ae49-5d1c0df8a0fc")
-		)
-		(pin "2"
-			(uuid "1f547fae-134c-4be7-9950-249f0bdcd042")
+			(uuid "d2be97d8-4fa8-4a8b-a0ef-881853ca4bf7")
 		)
 		(instances
-			(project ""
+			(project "DATALOGGER02"
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J29")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4127,7 +4415,7 @@
 	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 173.99 78.74 0)
+		(at 189.23 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4136,7 +4424,7 @@
 		(fields_autoplaced yes)
 		(uuid "adb39d1f-4a39-4936-b998-d81eae066348")
 		(property "Reference" "#PWR0135"
-			(at 173.99 85.09 0)
+			(at 189.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4433,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 83.82 0)
+			(at 189.23 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 78.74 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 78.74 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 78.74 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,140 +4548,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DATALOGGER01A-rescue:HEADER_2x01_PARALLEL-MLAB_HEADER")
-		(at 213.36 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0cf3be0-e1a8-4e03-b59f-cace55618a4a")
-		(property "Reference" "J36"
-			(at 208.28 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HEADER_2x01_PARALLEL"
-			(at 215.4174 71.6026 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
-			(at 213.36 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c439df4a-99f4-47c4-92e7-76d1d9e2c572")
-		)
-		(pin "2"
-			(uuid "705d08c4-26f1-41e3-ae09-7e8bb6f8c02b")
-		)
-		(instances
-			(project ""
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DATALOGGER01A-rescue:HEADER_2x01_PARALLEL-MLAB_HEADER")
-		(at 175.26 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2e6088d-3122-40b5-b06e-92676a73c4af")
-		(property "Reference" "J28"
-			(at 170.18 110.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HEADER_2x01_PARALLEL"
-			(at 177.3174 107.1626 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
-			(at 175.26 110.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 110.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c218b23-f6d7-4fa1-aa00-332e94275f6c")
-		)
-		(pin "2"
-			(uuid "b9526528-3766-4e63-95f0-5cb80b2e8a04")
-		)
-		(instances
-			(project ""
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 185.42 118.11 0)
 		(unit 1)
@@ -4453,73 +4607,6 @@
 			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
 					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DATALOGGER01A-rescue:HEADER_2x01_PARALLEL-MLAB_HEADER")
-		(at 213.36 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc395eb4-9c29-4a61-a9a3-5ebbac8098f2")
-		(property "Reference" "J34"
-			(at 208.28 69.85 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HEADER_2x01_PARALLEL"
-			(at 215.4174 66.5226 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
-			(at 213.36 69.85 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 69.85 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b93426a8-d381-4408-b2df-7f8971c776a1")
-		)
-		(pin "2"
-			(uuid "b2ad95a2-3d7c-4057-b614-5d803de4214a")
-		)
-		(instances
-			(project ""
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
-					(reference "J34")
 					(unit 1)
 				)
 			)
@@ -4602,6 +4689,111 @@
 			(project ""
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
 					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MLAB_HEADER:HEADER_2x07_PARALLEL")
+		(at 196.85 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d65a7b88-4e65-4fb5-9623-79b2fd85f6c2")
+		(property "Reference" "J2"
+			(at 200.66 76.1999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HEADER_2x07_PARALLEL"
+			(at 200.66 77.4699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "2x07 2.54 mm pitch header, 2 pins next to each other are connected"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "298ab59e-d506-4358-9953-093f575065b9")
+		)
+		(pin "9"
+			(uuid "0ef80f84-d3e7-49cd-82bf-ce11cd273003")
+		)
+		(pin "6"
+			(uuid "0245f23c-ac91-42b3-a562-922cd0c7bfab")
+		)
+		(pin "1"
+			(uuid "2bdda64c-3717-4a7f-9209-e47c42cbd221")
+		)
+		(pin "14"
+			(uuid "2e7f7c5d-8315-4f9c-ac34-b0d9da3b6332")
+		)
+		(pin "7"
+			(uuid "725c2674-b0f8-4496-ac54-ceaa81a23f79")
+		)
+		(pin "4"
+			(uuid "db083d0a-3625-43eb-881a-3af01e8c47d0")
+		)
+		(pin "5"
+			(uuid "0b604635-ed09-4eca-b159-338f0e60b9ba")
+		)
+		(pin "11"
+			(uuid "1c87273f-b189-45ec-8237-fd4ffc08f5e4")
+		)
+		(pin "13"
+			(uuid "120e004b-9aac-4e28-b88e-0ba02f39d4f2")
+		)
+		(pin "3"
+			(uuid "2924274f-1cdf-4563-ae31-32a4e86caeba")
+		)
+		(pin "2"
+			(uuid "1cc9ed16-8c86-4057-bbd6-5fb86a6c1360")
+		)
+		(pin "12"
+			(uuid "1e58a4a7-eec6-449a-b7df-04ec85fc4535")
+		)
+		(pin "8"
+			(uuid "5e398f91-40c6-4d47-a7bd-66185551d21f")
+		)
+		(instances
+			(project ""
+				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/57abb78d-4ec7-40f9-bbe8-c79df3c568d9"
+					(reference "J2")
 					(unit 1)
 				)
 			)
