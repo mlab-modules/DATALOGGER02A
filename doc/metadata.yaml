@@ -12,16 +12,16 @@ image_title: doc/gen/img/DATALOGGER02-top.png
 images:
 - doc/gen/img/DATALOGGER02-top.png
 - doc/gen/img/DATALOGGER02-bottom.png
-- doc/gen/DATALOGGER02-Microcontroller.svg
-- doc/gen/DATALOGGER02-schematic.svg
-- doc/gen/DATALOGGER02-Connectors.svg
-- doc/gen/DATALOGGER02-Peripherals.svg
-- doc/gen/DATALOGGER02-Telemetry.svg
-- doc/gen/DATALOGGER02-Power_management.svg
-- doc/gen/img/DATALOGGER02-bottom.svg
-- doc/gen/img/DATALOGGER02-top.svg
 - hw/cam_profi/assembly/DATALOGGER02-assembly_page_01.svg
 - hw/cam_profi/assembly/DATALOGGER02-assembly_page_02.svg
+- doc/gen/DATALOGGER02-schematic.svg
+- doc/gen/DATALOGGER02-Peripherals.svg
+- doc/gen/DATALOGGER02-Telemetry.svg
+- doc/gen/DATALOGGER02-Microcontroller.svg
+- doc/gen/DATALOGGER02-Connectors.svg
+- doc/gen/DATALOGGER02-Power_management.svg
+- doc/gen/img/DATALOGGER02-top.svg
+- doc/gen/img/DATALOGGER02-bottom.svg
 issues: 0
 mark: 50
 mod_ibom: hw/cam_profi/DATALOGGER02-ibom.html
@@ -36,4 +36,4 @@ tags:
 - mlab-kicad
 - pcb
 title: DATALOGGER02
-updated: '2024-09-29T10:44:32.600184+00:00'
+updated: '2025-01-03T15:56:55.597041+00:00'
