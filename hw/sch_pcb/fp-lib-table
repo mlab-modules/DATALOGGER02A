@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SIR424DP")(type "KiCad")(uri "C:/Users/somme/Downloads/LIB_SIR424DP-T1-GE3/SIR424DP-T1-GE3/KiCad")(options "")(descr ""))
+  (lib (name "XAL6030181MEC")(type "KiCad")(uri "C:/Users/somme/Downloads/LIB_XAL6030-181MEC/XAL6030-181MEC/KiCad")(options "")(descr ""))
+)

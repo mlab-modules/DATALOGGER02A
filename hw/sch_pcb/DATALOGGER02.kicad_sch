@@ -520,7 +520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13661203-0806-401f-a58d-19a75f3c4718")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR04"
 			(at 270.51 41.91 0)
 			(effects
 				(font
@@ -570,7 +570,7 @@
 		(instances
 			(project "DATALOGGER02"
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996"
-					(reference "#PWR027")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -586,7 +586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "169b0ad4-ac39-40bd-a183-0c78b3053a3c")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR02"
 			(at 255.27 41.91 0)
 			(effects
 				(font
@@ -636,7 +636,7 @@
 		(instances
 			(project "DATALOGGER02"
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996"
-					(reference "#PWR025")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -720,7 +720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "651ba4cc-fad4-4a23-ab70-257851400455")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR01"
 			(at 247.65 41.91 0)
 			(effects
 				(font
@@ -770,7 +770,7 @@
 		(instances
 			(project "DATALOGGER02"
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996"
-					(reference "#PWR024")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -922,7 +922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be72a249-57e7-4859-8479-62881012d960")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR03"
 			(at 262.89 41.91 0)
 			(effects
 				(font
@@ -972,7 +972,7 @@
 		(instances
 			(project "DATALOGGER02"
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996"
-					(reference "#PWR026")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
