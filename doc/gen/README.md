@@ -60,8 +60,8 @@ Outer Annular Ring: 0.1 mm (4 mils)
 
 - By design rules: 0.1 mm (4 mils)
 
-Eurocircuits class: 6D
-- Using min drill 0.25 mm for an OAR of 0.13 mm
+Eurocircuits class: 8D
+- Using min drill 0.25 mm for an OAR of 0.1 mm
 
 
 # General stats
@@ -69,7 +69,7 @@ Eurocircuits class: 6D
 Components count: (SMD/THT)
 
 - Top: 6/18 (SMD + THT)
-- Bottom: 134/1 (SMD + THT)
+- Bottom: 132/3 (SMD + THT)
 
 Defined tracks:
 
@@ -101,6 +101,7 @@ Holes (excluding vias):
 
 - 0.2 mm (8 mils) (9)
 - 0.25 mm (10 mils) (2)
+- 0.75 mm (30 mils) (6)
 - 0.89 mm (35 mils) (72)
 - 1.0 mm (39 mils) (2)
 - 1.1 mm (43 mils) (1)
@@ -117,6 +118,7 @@ Drill tools (including vias and computing adjusts and rounding):
 - 0.3 mm (12 mils) (9)
 - 0.35 mm (14 mils) (2)
 - 0.5 mm (20 mils) (265)
+- 0.85 mm (33 mils) (6)
 - 1.0 mm (39 mils) (72)
 - 1.1 mm (43 mils) (3)
 - 1.6 mm (63 mils) (2)
@@ -133,8 +135,8 @@ The stencil thickness is  0.12 mm.
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
 | Top    |              38 |      65.23 |      0.32 |
-| Bottom |             486 |     556.45 |      2.77 |
-| Total  |             524 |     621.68 |      3.09 |
+| Bottom |             464 |     516.68 |      2.57 |
+| Total  |             502 |     581.90 |      2.90 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 

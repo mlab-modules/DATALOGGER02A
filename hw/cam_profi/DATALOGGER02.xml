@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/DATALOGGER02.kicad_sch</source>
-    <date>2025-01-22T17:19:19+0000</date>
+    <date>2025-01-22T18:55:08+0000</date>
     <tool>Eeschema 8.0.8+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -117,10 +117,11 @@
     <comp ref="FID1">
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <description>Fiducial Marker</description>
       <fields>
         <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Fiducial Marker</field>
       </fields>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <property name="Sheetname" value=""/>
@@ -133,10 +134,11 @@
     <comp ref="FID2">
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <description>Fiducial Marker</description>
       <fields>
         <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Fiducial Marker</field>
       </fields>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <property name="Sheetname" value=""/>
@@ -149,10 +151,11 @@
     <comp ref="H1">
       <value>MountingHole_Pad</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <description>Mounting Hole with connection</description>
       <fields>
         <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Mounting Hole with connection</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
@@ -165,10 +168,11 @@
     <comp ref="H2">
       <value>MountingHole_Pad</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <description>Mounting Hole with connection</description>
       <fields>
         <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Mounting Hole with connection</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
@@ -181,10 +185,11 @@
     <comp ref="H3">
       <value>MountingHole_Pad</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <description>Mounting Hole with connection</description>
       <fields>
         <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Mounting Hole with connection</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
@@ -197,10 +202,11 @@
     <comp ref="H4">
       <value>MountingHole_Pad</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <description>Mounting Hole with connection</description>
       <fields>
         <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Mounting Hole with connection</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
@@ -517,10 +523,11 @@
     <comp ref="R5">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Microcontroller"/>
@@ -533,10 +540,11 @@
     <comp ref="R6">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Microcontroller"/>
@@ -549,10 +557,11 @@
     <comp ref="R8">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Microcontroller"/>
@@ -565,10 +574,11 @@
     <comp ref="R9">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Microcontroller"/>
@@ -581,10 +591,11 @@
     <comp ref="R10">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Microcontroller"/>
@@ -597,10 +608,11 @@
     <comp ref="R11">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Microcontroller"/>
@@ -613,10 +625,11 @@
     <comp ref="R48">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Microcontroller"/>
@@ -717,11 +730,12 @@
     <comp ref="C14">
       <value>100nF</value>
       <footprint>Mlab_C:SMD-0805</footprint>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Mlab_C:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
@@ -735,11 +749,12 @@
     <comp ref="C15">
       <value>100nF</value>
       <footprint>Mlab_C:SMD-0805</footprint>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Mlab_C:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
@@ -753,11 +768,12 @@
     <comp ref="C16">
       <value>100nF</value>
       <footprint>Mlab_C:SMD-0805</footprint>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Mlab_C:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
@@ -790,11 +806,12 @@
     <comp ref="C18">
       <value>100nF</value>
       <footprint>Mlab_C:SMD-0805</footprint>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Mlab_C:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
@@ -808,11 +825,12 @@
     <comp ref="C19">
       <value>100nF</value>
       <footprint>Mlab_C:SMD-0805</footprint>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Mlab_C:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
@@ -864,10 +882,11 @@
     <comp ref="C22">
       <value>100nF</value>
       <footprint>Mlab_C:SMD-0805</footprint>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Mlab_C:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Peripherals"/>
@@ -899,10 +918,11 @@
     <comp ref="C24">
       <value>100nF</value>
       <footprint>Mlab_C:SMD-0805</footprint>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Mlab_C:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Peripherals"/>
@@ -1035,10 +1055,11 @@
     <comp ref="JP1">
       <value>SolderJumper_3_Bridged12</value>
       <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
       <fields>
         <field name="Footprint">Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">3-pole Solder Jumper, pins 1+2 closed/bridged</field>
       </fields>
       <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
       <property name="Sheetname" value="Peripherals"/>
@@ -1051,10 +1072,11 @@
     <comp ref="JP2">
       <value>SolderJumper_3_Bridged12</value>
       <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
       <fields>
         <field name="Footprint">Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">3-pole Solder Jumper, pins 1+2 closed/bridged</field>
       </fields>
       <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
       <property name="Sheetname" value="Peripherals"/>
@@ -1067,10 +1089,11 @@
     <comp ref="JP3">
       <value>SolderJumper_3_Bridged12</value>
       <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
       <fields>
         <field name="Footprint">Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">3-pole Solder Jumper, pins 1+2 closed/bridged</field>
       </fields>
       <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
       <property name="Sheetname" value="Peripherals"/>
@@ -1083,10 +1106,11 @@
     <comp ref="JP4">
       <value>SolderJumper_3_Bridged12</value>
       <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
       <fields>
         <field name="Footprint">Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">3-pole Solder Jumper, pins 1+2 closed/bridged</field>
       </fields>
       <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
       <property name="Sheetname" value="Peripherals"/>
@@ -1117,11 +1141,12 @@
     <comp ref="R14">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984612875079b91f899f</field>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984612875079b91f899f"/>
@@ -1135,11 +1160,12 @@
     <comp ref="R15">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984612875079b91f899f</field>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984612875079b91f899f"/>
@@ -1153,11 +1179,12 @@
     <comp ref="R16">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984612875079b91f899f</field>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984612875079b91f899f"/>
@@ -1171,11 +1198,12 @@
     <comp ref="R17">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984612875079b91f899f</field>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984612875079b91f899f"/>
@@ -1189,10 +1217,11 @@
     <comp ref="R18">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Peripherals"/>
@@ -1205,10 +1234,11 @@
     <comp ref="R19">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Peripherals"/>
@@ -1238,10 +1268,11 @@
     <comp ref="R21">
       <value>10k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Peripherals"/>
@@ -1254,10 +1285,11 @@
     <comp ref="R22">
       <value>150k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Peripherals"/>
@@ -1270,10 +1302,11 @@
     <comp ref="R23">
       <value>56k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Peripherals"/>
@@ -1382,11 +1415,12 @@
       <value>TXS0108EPW</value>
       <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
       <datasheet>www.ti.com/lit/ds/symlink/txs0108e.pdf</datasheet>
+      <description>Bidirectional  level-shifting voltage translator, TSSOP-20</description>
       <fields>
         <field name="UST_ID">5c7258471287500b4e112edd</field>
         <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
         <field name="Datasheet">www.ti.com/lit/ds/symlink/txs0108e.pdf</field>
-        <field name="Description"/>
+        <field name="Description">Bidirectional  level-shifting voltage translator, TSSOP-20</field>
       </fields>
       <libsource lib="Logic_LevelTranslator" part="TXS0108EPW" description="Bidirectional  level-shifting voltage translator, TSSOP-20"/>
       <property name="UST_ID" value="5c7258471287500b4e112edd"/>
@@ -1401,11 +1435,12 @@
       <value>ICM-20948</value>
       <footprint>Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm</footprint>
       <datasheet>http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf</datasheet>
+      <description>InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI, QFN-24</description>
       <fields>
         <field name="UST_ID">5c725a431287500b4e112ef5</field>
         <field name="Footprint">Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm</field>
         <field name="Datasheet">http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf</field>
-        <field name="Description"/>
+        <field name="Description">InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI, QFN-24</field>
       </fields>
       <libsource lib="Sensor_Motion" part="ICM-20948" description="InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI, QFN-24"/>
       <property name="UST_ID" value="5c725a431287500b4e112ef5"/>
@@ -1438,10 +1473,11 @@
       <value>MS5611-01BA</value>
       <footprint>Package_LGA:LGA-8_3x5mm_P1.25mm</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=MS5611-01BA03&amp;DocType=Data+Sheet&amp;DocLang=English</datasheet>
+      <description>Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8</description>
       <fields>
         <field name="Footprint">Package_LGA:LGA-8_3x5mm_P1.25mm</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=MS5611-01BA03&amp;DocType=Data+Sheet&amp;DocLang=English</field>
-        <field name="Description"/>
+        <field name="Description">Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8</field>
       </fields>
       <libsource lib="Sensor_Pressure" part="MS5611-01BA" description="Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"/>
       <property name="Sheetname" value="Peripherals"/>
@@ -1569,10 +1605,11 @@
     <comp ref="C26">
       <value>1nF</value>
       <footprint>Mlab_C:SMD-0805</footprint>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Mlab_C:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -1585,11 +1622,12 @@
     <comp ref="C27">
       <value>1uF</value>
       <footprint>Mlab_C:SMD-0805</footprint>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b50</field>
         <field name="Footprint">Mlab_C:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b50"/>
@@ -1603,10 +1641,11 @@
     <comp ref="C28">
       <value>50F</value>
       <footprint>Mlab_C:C_Radial_D16_L25_P7.5</footprint>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Mlab_C:C_Radial_D16_L25_P7.5</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -1653,11 +1692,12 @@
     <comp ref="C31">
       <value>1uF</value>
       <footprint>Mlab_C:SMD-0805</footprint>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b50</field>
         <field name="Footprint">Mlab_C:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b50"/>
@@ -1946,10 +1986,11 @@
     <comp ref="L2">
       <value>XAL-6030-182 1.8 uH</value>
       <footprint>XAL6030181MEC:XAL6030181MEC</footprint>
+      <description>Inductor</description>
       <fields>
         <field name="Footprint">XAL6030181MEC:XAL6030181MEC</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Inductor</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -1962,10 +2003,11 @@
     <comp ref="L3">
       <value>1uH - DFE252012P-1R0M=P2</value>
       <footprint>Inductor_SMD:L_1008_2520Metric</footprint>
+      <description>Inductor</description>
       <fields>
         <field name="Footprint">Inductor_SMD:L_1008_2520Metric</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Inductor</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -1978,10 +2020,11 @@
     <comp ref="L4">
       <value>1uH - DFE252012P-1R0M=P2</value>
       <footprint>Inductor_SMD:L_1008_2520Metric</footprint>
+      <description>Inductor</description>
       <fields>
         <field name="Footprint">Inductor_SMD:L_1008_2520Metric</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Inductor</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -1993,12 +2036,13 @@
     </comp>
     <comp ref="Q2">
       <value>SIR424DP</value>
-      <footprint>SIR424DP:SIR106DPT1RE3</footprint>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
       <datasheet>https://www.vishay.com/docs/70226/70226.pdf</datasheet>
+      <description>0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92</description>
       <fields>
-        <field name="Footprint">SIR424DP:SIR106DPT1RE3</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
         <field name="Datasheet">https://www.vishay.com/docs/70226/70226.pdf</field>
-        <field name="Description"/>
+        <field name="Description">0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7000" description="0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2010,12 +2054,13 @@
     </comp>
     <comp ref="Q3">
       <value>SIR424DP</value>
-      <footprint>SIR424DP:SIR106DPT1RE3</footprint>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
       <datasheet>https://www.vishay.com/docs/70226/70226.pdf</datasheet>
+      <description>0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92</description>
       <fields>
-        <field name="Footprint">SIR424DP:SIR106DPT1RE3</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
         <field name="Datasheet">https://www.vishay.com/docs/70226/70226.pdf</field>
-        <field name="Description"/>
+        <field name="Description">0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7000" description="0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2028,10 +2073,11 @@
     <comp ref="R29">
       <value>150k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2044,10 +2090,11 @@
     <comp ref="R30">
       <value>56k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2060,10 +2107,11 @@
     <comp ref="R31">
       <value>1M</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2076,10 +2124,11 @@
     <comp ref="R32">
       <value>100k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2092,10 +2141,11 @@
     <comp ref="R33">
       <value>100k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2108,10 +2158,11 @@
     <comp ref="R34">
       <value>100k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2124,10 +2175,11 @@
     <comp ref="R35">
       <value>6.2k 1/8W</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2140,10 +2192,11 @@
     <comp ref="R36">
       <value>2k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2156,10 +2209,11 @@
     <comp ref="R37">
       <value>25mR</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2172,10 +2226,11 @@
     <comp ref="R38">
       <value>523k (E96)</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2188,10 +2243,11 @@
     <comp ref="R39">
       <value>100k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2204,10 +2260,11 @@
     <comp ref="R40">
       <value>220k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2220,10 +2277,11 @@
     <comp ref="R41">
       <value>100k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2236,10 +2294,11 @@
     <comp ref="R42">
       <value>806k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2252,10 +2311,11 @@
     <comp ref="R43">
       <value>91k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2268,10 +2328,11 @@
     <comp ref="R44">
       <value>511k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2284,10 +2345,11 @@
     <comp ref="R45">
       <value>91k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power_management"/>
@@ -2301,11 +2363,12 @@
       <value>MIC5504-1.8YM5-TR</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</datasheet>
+      <description>300mA Low-dropout Voltage Regulator, Vout 1.8V, Vin up to 5.5V, SOT-23</description>
       <fields>
         <field name="UST_ID">5c7256781287500b4e112eba</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
         <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</field>
-        <field name="Description"/>
+        <field name="Description">300mA Low-dropout Voltage Regulator, Vout 1.8V, Vin up to 5.5V, SOT-23</field>
       </fields>
       <libsource lib="Regulator_Linear" part="MIC5504-1.8YM5" description="300mA Low-dropout Voltage Regulator, Vout 1.8V, Vin up to 5.5V, SOT-23"/>
       <property name="UST_ID" value="5c7256781287500b4e112eba"/>
@@ -2636,11 +2699,12 @@
     <comp ref="C56">
       <value>1nF</value>
       <footprint>Mlab_C:SMD-0805</footprint>
+      <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bec</field>
         <field name="Footprint">Mlab_C:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bec"/>
@@ -2891,11 +2955,12 @@
     <comp ref="R47">
       <value>100R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8956</field>
         <field name="Footprint">Mlab_R:SMD-0805</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8956"/>
@@ -2927,11 +2992,12 @@
       <value>PE4259</value>
       <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
       <datasheet>https://www.psemi.com/pdf/datasheets/pe4259ds.pdf</datasheet>
+      <description>RF Switch</description>
       <fields>
         <field name="UST_ID">5face19b12875025b3977e15</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
         <field name="Datasheet">https://www.psemi.com/pdf/datasheets/pe4259ds.pdf</field>
-        <field name="Description"/>
+        <field name="Description">RF Switch</field>
       </fields>
       <libsource lib="MLAB_IO" part="PE4259" description="RF Switch"/>
       <property name="UST_ID" value="5face19b12875025b3977e15"/>
@@ -4900,10 +4966,10 @@
       <node ref="J6" pin="10" pinfunction="CARD_DETECT" pintype="input"/>
     </net>
     <net code="117" name="unconnected-(J6-DAT1-Pad8)">
-      <node ref="J6" pin="8" pinfunction="DAT1" pintype="input"/>
+      <node ref="J6" pin="8" pinfunction="DAT1" pintype="input+no_connect"/>
     </net>
     <net code="118" name="unconnected-(J6-DAT2-Pad9)">
-      <node ref="J6" pin="9" pinfunction="DAT2" pintype="input"/>
+      <node ref="J6" pin="9" pinfunction="DAT2" pintype="input+no_connect"/>
     </net>
     <net code="119" name="unconnected-(J6-WRITE_PROTECT-Pad11)">
       <node ref="J6" pin="11" pinfunction="WRITE_PROTECT" pintype="input"/>
@@ -4915,13 +4981,13 @@
       <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
     </net>
     <net code="122" name="unconnected-(U3-(PCINT22{slash}TOSC1)PC6-Pad25)">
-      <node ref="U3" pin="25" pinfunction="(PCINT22/TOSC1)PC6" pintype="bidirectional"/>
+      <node ref="U3" pin="25" pinfunction="(PCINT22/TOSC1)PC6" pintype="bidirectional+no_connect"/>
     </net>
     <net code="123" name="unconnected-(U3-(PCINT30{slash}OC2B{slash}ICP)PD6-Pad15)">
-      <node ref="U3" pin="15" pinfunction="(PCINT30/OC2B/ICP)PD6" pintype="bidirectional"/>
+      <node ref="U3" pin="15" pinfunction="(PCINT30/OC2B/ICP)PD6" pintype="bidirectional+no_connect"/>
     </net>
     <net code="124" name="unconnected-(U3-(PCINT294{slash}OC1A)PD5-Pad14)">
-      <node ref="U3" pin="14" pinfunction="(PCINT294/OC1A)PD5" pintype="bidirectional"/>
+      <node ref="U3" pin="14" pinfunction="(PCINT294/OC1A)PD5" pintype="bidirectional+no_connect"/>
     </net>
     <net code="125" name="unconnected-(U5-NC-Pad1)">
       <node ref="U5" pin="1" pinfunction="NC" pintype="no_connect"/>

@@ -57,7 +57,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 56,Inductor,L,L3L4,1uH - DFE252012P-1R0M=P2,L_1008_2520Metric,2,~,,,,,,,
 57,Inductor,L,L2,XAL-6030-182 1.8 uH,XAL6030181MEC,1,~,,,,,,,
 58,"-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23",IRLML6401,Q1,DMP2045UQ-7,SOT-23,1,https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634,,,,,,,
-59,"0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92",2N7000,Q2Q3,SIR424DP,SIR106DPT1RE3,2,https://www.vishay.com/docs/70226/70226.pdf,,,,,,,
+59,"0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92",2N7000,Q2Q3,SIR424DP,TO-92_Inline,2,https://www.vishay.com/docs/70226/70226.pdf,,,,,,,
 60,Resistor,R,R37,25mR,SMD-0805,1,~,,,,,,,
 61,,R-device,R24R25R26R27,100,SMD-0805,4,,5c70984512875079b91f8977,,,,,,
 62,Resistor,R,R47,100R,SMD-0805,1,~,5c70984512875079b91f8956,,,,,,
