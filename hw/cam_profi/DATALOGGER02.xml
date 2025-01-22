@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/DATALOGGER02.kicad_sch</source>
-    <date>2025-01-22T12:48:10+0000</date>
+    <date>2025-01-22T17:05:52+0000</date>
     <tool>Eeschema 8.0.8+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -4296,13 +4296,13 @@
       <node ref="Q3" pin="2" pinfunction="G" pintype="input"/>
     </net>
     <net code="22" name="/Telemetry/DIO1">
-      <node ref="J13" pin="3" pintype="input"/>
-      <node ref="J13" pin="4" pintype="input"/>
+      <node ref="J13" pin="1" pintype="input"/>
+      <node ref="J13" pin="2" pintype="input"/>
       <node ref="U11" pin="13" pinfunction="DIO1" pintype="bidirectional"/>
     </net>
     <net code="23" name="/Telemetry/DIO3">
-      <node ref="J13" pin="1" pintype="input"/>
-      <node ref="J13" pin="2" pintype="input"/>
+      <node ref="J13" pin="3" pintype="input"/>
+      <node ref="J13" pin="4" pintype="input"/>
       <node ref="U11" pin="6" pinfunction="DIO3" pintype="bidirectional"/>
     </net>
     <net code="24" name="AUX_SCL_3V3">
