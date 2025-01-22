@@ -4293,7 +4293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_R:SMD-0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 73.152 64.77 90)
 			(effects
 				(font
@@ -4478,6 +4478,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1199c89a-e010-40dc-85a6-0750f59af6f0")
 		(property "Reference" "L11"
 			(at 237.49 99.314 90)
@@ -4495,7 +4496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 237.49 104.14 0)
 			(effects
 				(font
@@ -4722,7 +4723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 140.97 55.88 0)
 			(effects
 				(font
@@ -4853,6 +4854,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1f389cbd-3b7d-48ad-bbd2-556590e097b9")
 		(property "Reference" "#PWR0156"
 			(at 245.11 120.65 0)
@@ -4935,7 +4937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.3652 87.63 0)
 			(effects
 				(font
@@ -5022,7 +5024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 33.9852 82.55 0)
 			(effects
 				(font
@@ -5154,7 +5156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 44.1452 82.55 0)
 			(effects
 				(font
@@ -5223,7 +5225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 141.9352 87.63 0)
 			(effects
 				(font
@@ -5242,6 +5244,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 140.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
 			(at 140.97 83.82 0)
 			(effects
 				(font
@@ -5290,7 +5301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 167.64 78.74 0)
 			(effects
 				(font
@@ -5326,7 +5337,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5dad574f128750448eca1986"
+		(property "UST_ID" "671226edd509c19f2ce8ed2d"
 			(at 265.43 262.89 0)
 			(effects
 				(font
@@ -5440,7 +5451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 174.9552 87.63 0)
 			(effects
 				(font
@@ -5740,7 +5751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.51 70.8152 0)
 			(effects
 				(font
@@ -6049,7 +6060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 122.8852 59.69 0)
 			(effects
 				(font
@@ -6134,7 +6145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 154.94 79.7052 0)
 			(effects
 				(font
@@ -6421,7 +6432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 219.4052 135.89 0)
 			(effects
 				(font
@@ -6497,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 128.27 78.74 0)
 			(effects
 				(font
@@ -6619,6 +6630,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8d0360ef-c05f-4443-b7c1-1184c3a73f1d")
 		(property "Reference" "C58"
 			(at 232.791 108.0516 0)
@@ -6638,7 +6650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 228.9048 105.41 0)
 			(effects
 				(font
@@ -6788,7 +6800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.0552 59.69 0)
 			(effects
 				(font
@@ -6929,7 +6941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 122.8852 134.62 0)
 			(effects
 				(font
@@ -7080,7 +7092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 78.74 132.08 0)
 			(effects
 				(font
@@ -7157,7 +7169,7 @@
 				)
 			)
 		)
-		(property "Value" "2n5"
+		(property "Value" "2n4"
 			(at 147.32 76.2254 90)
 			(effects
 				(font
@@ -7165,7 +7177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 147.32 78.74 0)
 			(effects
 				(font
@@ -7315,7 +7327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 133.0452 59.69 0)
 			(effects
 				(font
@@ -7608,7 +7620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 128.27 113.9952 0)
 			(effects
 				(font
@@ -7693,7 +7705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mlab_R:SMD-0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 228.6 128.778 90)
 			(effects
 				(font
@@ -7771,7 +7783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 105.1052 59.69 0)
 			(effects
 				(font
@@ -7830,6 +7842,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "baa75200-f9ac-420a-b0a3-be3f53b407c4")
 		(property "Reference" "C59"
 			(at 248.031 108.0516 0)
@@ -7849,7 +7862,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 244.1448 105.41 0)
 			(effects
 				(font
@@ -7936,7 +7949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 141.9352 123.19 0)
 			(effects
 				(font
@@ -7955,6 +7968,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 140.97 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
 			(at 140.97 119.38 0)
 			(effects
 				(font
@@ -8005,7 +8027,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 121.92 119.38 0)
 			(effects
 				(font
@@ -8092,7 +8114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 72.0852 142.24 0)
 			(effects
 				(font
@@ -8160,6 +8182,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d9c4bb05-43bf-4230-bd4e-4a9760d159fe")
 		(property "Reference" "C57"
 			(at 222.25 97.7392 90)
@@ -8177,7 +8200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mlab_C:SMD-0805"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 218.44 105.1052 0)
 			(effects
 				(font
@@ -8374,6 +8397,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f41ad5dd-ced8-4316-ad88-e2c40faa516f")
 		(property "Reference" "#PWR0155"
 			(at 229.87 120.65 0)
