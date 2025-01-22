@@ -3214,16 +3214,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 107.95) (xy 52.07 106.68)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "16dfec74-d422-4320-8c28-cc00cd68fa2d")
-	)
-	(wire
-		(pts
 			(xy 43.18 73.66) (xy 55.88 73.66)
 		)
 		(stroke
@@ -3444,6 +3434,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 107.95) (xy 83.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3876c764-2920-48f3-a14a-dbca60e85bc0")
+	)
+	(wire
+		(pts
 			(xy 214.63 93.98) (xy 214.63 113.03)
 		)
 		(stroke
@@ -3501,16 +3501,6 @@
 			(type solid)
 		)
 		(uuid "4daf2f56-0adc-4fbc-90d4-74aa91bed10f")
-	)
-	(wire
-		(pts
-			(xy 52.07 104.14) (xy 52.07 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51ab09a6-07f9-45e6-b3d7-9f2b3957d64b")
 	)
 	(wire
 		(pts
@@ -3674,6 +3664,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 102.87) (xy 83.82 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce870e2-24f2-4db0-a434-e3017194b6e7")
+	)
+	(wire
+		(pts
 			(xy 114.3 125.73) (xy 121.92 125.73)
 		)
 		(stroke
@@ -3741,16 +3741,6 @@
 			(type solid)
 		)
 		(uuid "83e30597-72dc-481a-b480-491944bf9e38")
-	)
-	(wire
-		(pts
-			(xy 52.07 107.95) (xy 83.82 107.95)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "840d703b-109a-436d-a75f-56a898ccd539")
 	)
 	(wire
 		(pts
@@ -4182,15 +4172,16 @@
 		)
 		(uuid "fbcc2bf3-3a70-4265-82ea-7d724cb7ea9e")
 	)
-	(wire
-		(pts
-			(xy 52.07 102.87) (xy 83.82 102.87)
+	(label "DIO1"
+		(at 52.07 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff5c24f3-2d78-4053-b363-794c3dbef379")
+		(uuid "30796632-73be-47bf-b312-99a18940fdb3")
 	)
 	(label "DIO2"
 		(at 74.93 105.41 0)
@@ -4202,6 +4193,17 @@
 			(justify left bottom)
 		)
 		(uuid "32322f93-d3c7-4877-a0b2-b546ea8825eb")
+	)
+	(label "DIO3"
+		(at 52.07 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "61fd532d-791b-4e2d-a7d3-80b0e7856c5f")
 	)
 	(label "DIO2"
 		(at 233.68 127 0)
@@ -4215,7 +4217,7 @@
 		(uuid "7dcd81aa-9af9-4e7a-b881-8f222c207583")
 	)
 	(label "DIO3"
-		(at 52.07 107.95 0)
+		(at 74.93 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4226,7 +4228,7 @@
 		(uuid "9091a30f-2f51-4950-b3ea-60c6e43bb6ab")
 	)
 	(label "DIO1"
-		(at 52.07 102.87 0)
+		(at 74.93 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
