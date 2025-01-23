@@ -2963,18 +2963,6 @@
 		(uuid "b3f92b96-9f7b-438d-9176-f85cdd01e04d")
 	)
 	(junction
-		(at 55.88 73.66)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "b95bebba-4f7a-4a8e-927c-da616714c0d3")
-	)
-	(junction
-		(at 55.88 66.04)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "da02cd0e-f68c-4923-91b7-08471a473cdd")
-	)
-	(junction
 		(at 152.4 78.74)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -3074,16 +3062,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 66.04) (xy 33.02 74.93)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "0da19a82-06cf-4579-91fa-8255d84a29b0")
-	)
-	(wire
-		(pts
 			(xy 140.97 78.74) (xy 132.08 78.74)
 		)
 		(stroke
@@ -3091,26 +3069,6 @@
 			(type solid)
 		)
 		(uuid "13d56c27-760b-449d-93a4-1b41e1542174")
-	)
-	(wire
-		(pts
-			(xy 43.18 73.66) (xy 55.88 73.66)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "19b754aa-fbfc-4e1c-ba08-d7b66f14b5d7")
-	)
-	(wire
-		(pts
-			(xy 43.18 82.55) (xy 43.18 83.82)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "1d7f6b91-9465-46db-a6c4-0646afcc0f0a")
 	)
 	(wire
 		(pts
@@ -3474,16 +3432,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 66.04) (xy 55.88 66.04)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "615993b8-60a8-46ed-b7ac-ae6d2175a20e")
-	)
-	(wire
-		(pts
 			(xy 162.56 78.74) (xy 163.83 78.74)
 		)
 		(stroke
@@ -3621,16 +3569,6 @@
 			(type solid)
 		)
 		(uuid "83e30597-72dc-481a-b480-491944bf9e38")
-	)
-	(wire
-		(pts
-			(xy 43.18 73.66) (xy 43.18 74.93)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "85358212-01a1-4d30-b780-47fe874f1a6c")
 	)
 	(wire
 		(pts
@@ -3901,16 +3839,6 @@
 			(type solid)
 		)
 		(uuid "cb28de2a-609e-4f04-8e4c-3cc96c5478fe")
-	)
-	(wire
-		(pts
-			(xy 33.02 82.55) (xy 33.02 83.82)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "cecc1c64-9602-4907-9b35-4f4e8c8fdb30")
 	)
 	(wire
 		(pts
@@ -4998,75 +4926,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ISM02A-rescue:C-Device-ISM02A-rescue")
-		(at 33.02 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23d88e2f-b3d2-42d8-b46e-2d80d16f92a7")
-		(property "Reference" "C41"
-			(at 35.941 77.5716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "-"
-			(at 35.941 79.883 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 33.9852 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "907f125c-571c-46b5-9015-6a1fd51796e6")
-		)
-		(pin "2"
-			(uuid "7a3cfc79-bd37-4dd0-bb76-8c869a06863e")
-		)
-		(instances
-			(project "DATALOGGER02"
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/519f87ce-2fca-4f1a-a87e-7f9aea4b3597"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 132.08 60.96 0)
 		(unit 1)
@@ -5124,75 +4983,6 @@
 			(project "DATALOGGER02"
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/519f87ce-2fca-4f1a-a87e-7f9aea4b3597"
 					(reference "#PWR0147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ISM02A-rescue:C-Device-ISM02A-rescue")
-		(at 43.18 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ff63fda-d609-4766-bdf9-679831404161")
-		(property "Reference" "C42"
-			(at 46.101 77.5716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "-"
-			(at 46.101 79.883 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 44.1452 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8750e81-1c62-42fa-9833-32b0b02dac76")
-		)
-		(pin "2"
-			(uuid "18e6ac24-d7c8-4b19-9320-19790d3d3547")
-		)
-		(instances
-			(project "DATALOGGER02"
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/519f87ce-2fca-4f1a-a87e-7f9aea4b3597"
-					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -5569,69 +5359,6 @@
 			(project "DATALOGGER02"
 				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/519f87ce-2fca-4f1a-a87e-7f9aea4b3597"
 					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "649c9eed-bac7-4fe8-a16a-eec57d674396")
-		(property "Reference" "#PWR0137"
-			(at 43.18 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 83.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 83.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "854a41c7-3f3d-4320-b8d0-b1f38936096f")
-		)
-		(instances
-			(project "DATALOGGER02"
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/519f87ce-2fca-4f1a-a87e-7f9aea4b3597"
-					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -6711,69 +6438,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 33.02 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90a3077d-835c-49c2-89c8-f2de06f063c3")
-		(property "Reference" "#PWR0136"
-			(at 33.02 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 83.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 83.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5080765-562c-4b62-b8ce-2e5ae04d5881")
-		)
-		(instances
-			(project "DATALOGGER02"
-				(path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/519f87ce-2fca-4f1a-a87e-7f9aea4b3597"
-					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ISM02A-rescue:C-Device-ISM02A-rescue")
 		(at 85.09 55.88 0)
 		(unit 1)
@@ -6941,7 +6605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 122.8852 134.62 0)
 			(effects
 				(font
@@ -7421,7 +7085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R000000HT76/7Nka9W5WgugoZe.xwIHJy6ebj1hW8UJ.USO_Pt2CLLo"
 			(at 99.06 93.98 0)
 			(effects
 				(font
