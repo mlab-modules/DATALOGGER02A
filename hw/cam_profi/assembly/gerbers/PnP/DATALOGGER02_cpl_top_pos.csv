@@ -1,5 +1,5 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-"C28","50F","C_Radial_D16_L25_P7.5",23.8760,61.0870,0.0000,top
+"C28","50F","CP_Radial_D18.0mm_P7.50mm",23.8760,61.0870,0.0000,top
 "FID1","Fiducial","Fiducial_1mm_Mask2mm",-43.9260,68.2550,0.0000,top
 "FID2","Fiducial","Fiducial_1mm_Mask2mm",37.9740,21.2550,0.0000,top
 "H1","MountingHole_Pad","MountingHole_3mm",-50.5460,15.8750,0.0000,top
@@ -19,7 +19,5 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "J11","HEADER_2x07_PARALLEL","Straight_2x07",-23.8760,67.6910,90.0000,top
 "J12","HEADER_2x05_PARALLEL","Straight_2x05",-24.6380,14.8590,90.0000,top
 "J13","HEADER_2x02_PARALLEL","Straight_2x02",-36.0680,67.6910,90.0000,top
-"J19","Conn_01x03_Male","Straight_1x03",31.7500,13.5890,90.0000,top
-"J20","Conn_01x03_Male","Straight_1x03",23.3680,13.5890,90.0000,top
 "J23","MCX","MCX",-50.5460,56.0070,0.0000,top
 "J24","HEADER_2x03_PARALLEL","Straight_2x03",41.9100,41.2750,0.0000,top

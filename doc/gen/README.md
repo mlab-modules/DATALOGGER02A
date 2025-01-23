@@ -54,22 +54,22 @@ Via: 0.8/0.4 mm (31/16 mils)
 - By design rules: 0.8/0.4 mm (31/16 mils)
 - Micro via: yes [0.15/0.1 mm (6/4 mils)]
 - Buried/blind via: yes
-- Total: 265 (thru: 265 buried/blind: 0 micro: 0)
+- Total: 262 (thru: 262 buried/blind: 0 micro: 0)
 
 Outer Annular Ring: 0.1 mm (4 mils)
 
 - By design rules: 0.1 mm (4 mils)
 
-Eurocircuits class: 8D
-- Using min drill 0.25 mm for an OAR of 0.1 mm
+Eurocircuits class: 6D
+- Using min drill 0.25 mm for an OAR of 0.13 mm
 
 
 # General stats
 
 Components count: (SMD/THT)
 
-- Top: 6/18 (SMD + THT)
-- Bottom: 132/3 (SMD + THT)
+- Top: 6/16 (SMD + THT)
+- Bottom: 131/1 (SMD + THT)
 
 Defined tracks:
 
@@ -83,28 +83,29 @@ Defined tracks:
 Used tracks:
 
 - 0.18 mm (7 mils) (57) defined: no
-- 0.25 mm (10 mils) (968) defined: no
+- 0.25 mm (10 mils) (896) defined: no
 - 0.28 mm (11 mils) (1) defined: no
-- 0.33 mm (13 mils) (22) defined: no
-- 0.51 mm (20 mils) (29) defined: no
+- 0.3 mm (12 mils) (22) defined: yes
+- 0.33 mm (13 mils) (18) defined: no
+- 0.5 mm (20 mils) (47) defined: yes
+- 0.51 mm (20 mils) (20) defined: no
 - 0.64 mm (25 mils) (8) defined: no
-- 0.89 mm (35 mils) (167) defined: no
+- 0.89 mm (35 mils) (165) defined: no
 
 Defined vias:
 
 
 Used vias:
 
-- 0.8/0.4 mm (31/16 mils) (Count: 265, Aspect: 2.0 A) defined: no
+- 0.8/0.4 mm (31/16 mils) (Count: 262, Aspect: 2.0 A) defined: no
 
 Holes (excluding vias):
 
 - 0.2 mm (8 mils) (9)
 - 0.25 mm (10 mils) (2)
-- 0.75 mm (30 mils) (6)
-- 0.89 mm (35 mils) (72)
-- 1.0 mm (39 mils) (2)
+- 0.89 mm (35 mils) (66)
 - 1.1 mm (43 mils) (1)
+- 1.2 mm (47 mils) (2)
 - 1.5 mm (59 mils) (1)
 - 1.6 mm (63 mils) (1)
 - 1.7 mm (67 mils) (4)
@@ -117,10 +118,10 @@ Drill tools (including vias and computing adjusts and rounding):
 
 - 0.3 mm (12 mils) (9)
 - 0.35 mm (14 mils) (2)
-- 0.5 mm (20 mils) (265)
-- 0.85 mm (33 mils) (6)
-- 1.0 mm (39 mils) (72)
-- 1.1 mm (43 mils) (3)
+- 0.5 mm (20 mils) (262)
+- 1.0 mm (39 mils) (66)
+- 1.1 mm (43 mils) (1)
+- 1.3 mm (51 mils) (2)
 - 1.6 mm (63 mils) (2)
 - 1.8 mm (71 mils) (4)
 - 3.1 mm (122 mils) (4)
@@ -135,8 +136,8 @@ The stencil thickness is  0.12 mm.
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
 | Top    |              38 |      65.23 |      0.32 |
-| Bottom |             464 |     516.68 |      2.57 |
-| Total  |             502 |     581.90 |      2.90 |
+| Bottom |             465 |     531.52 |      2.65 |
+| Total  |             503 |     596.75 |      2.97 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 
